@@ -1,0 +1,2777 @@
+Welcome to the lectures on acoustic instabilities in aerospace propulsion My name is Sujith 
+and I will be delivering this class So before 
+I start off with the lecture I like to give 
+a course outline 
+So the course is dealing with how there are 
+instabilities that happen in propulsion system 
+or combustion system in the industry And 
+this is something which we usually do not 
+deal with in a propulsion course So usually in a propulsion course we talk about designing 
+a propulsion system or a combustion system and those are basically based on study state 
+principles rather than any instability analysis but here So you end up designing a engine 
+or a system and then some times it goes unstable that is the engine develops very large levels 
+of vibration and sound inside and create problems and may lead to destruction of engine or mission 
+failure and so on And such scenario happen in real life and this course is to look at 
+such phenomena So the course starts with an introduction 
+to acoustics and how combustion driven oscillations 
+occurred And we will then do the derivation 
+of the wave equation we will then speak about 
+solution derivation equation First we will 
+be talking about what travelling wave solution 
+and then standing wave solutions then we 
+look at effect of inhomogeneous media on sound 
+propagation That is in real engines temperature 
+in the engine is not uniform its different 
+from usual sound propagations that atmosphere 
+or something where here the temperature be 
+nonuniform So we will look at the effect 
+of nonuniformity or homogeneity media on 
+sound propagation then we look at multi 
+dimensional acoustics So how does sound 
+propagate in a can type combustor or how are 
+the radial mode how are the tangential mode 
+happening and so on 
+And so this much is the basic acoustic part 
+then we move on to looking at combustion stability 
+First I will look at the fundamentals of combustion 
+instability how it occurs and then we look 
+at the basic principles we derive the equations 
+that represent the describe combustion and 
+stability We will speak about Rayleigh criteria 
+which is the classical criteria that explains 
+weather instabilities occur or not then look 
+at instability in solid and liquid rockets 
+ramjets and gas turbines engines 
+We speak a little bit about pulse combustors 
+and their use speak then about the passive 
+and active control of combustion instability 
+We will then see how we can do theoretical 
+analysis of combustion instability and then 
+we do model analyses which is the conventional 
+technique for studying analyzing combustion 
+instability And lastly we will look at the 
+recent developments on nonmodel stability 
+and analysis So basically you can see the 
+courses split into two parts in the first 
+part we are basically speaking about classical 
+acoustics 
+So we describe how waves are travelling in 
+a medium how they get reflected how they 
+get transmitted and so on So that is what 
+is basically classical acoustics and the second 
+part we will specially discuss\u2026 
+Thermo acoustic instabilities and their analysis 
+So this is what the course is and in today 
+the first lecture we will speak about what 
+causes the instabilities and how we will 
+I will just give you a very preliminary introduction 
+about what causes instability And how who 
+there is established in combustors and how 
+they can be suppressed 
+So this is the first lecture that is a origin 
+and suppression about of a combustion driven 
+oscillations So as I mentioned propulsion 
+is usually taught as a study state phenomena 
+but in reality all the property system are 
+designed based on study step principles they 
+are not actually that study because when the 
+stability comes there will be loud level of 
+vibrations and noise And the fluid mechanics 
+will be unsteady and you would end up having 
+serious problems 
+So first question is what is thermoacoustic 
+instability ? This word thermoacoustic instabilities 
+also refer to an by some other people as what 
+is called combustion instability or thermoacoustics 
+or combustion dynamics We will look at how 
+common it is in fact it is quite common although 
+people do not speak much about it it is there 
+in most of the engines and some of the literature 
+says that fifty percentage of the solid motor 
+that are develop have combustion instability 
+problems Let us speak about who we can eliminate 
+it 
+So I will giving an introduction to this subject 
+in this lecture so whenever you decide rocket 
+runs in a industrial burner whatever you 
+decide it and then you go into tested and 
+then bang you are struck with this instability 
+problems And then this is the completely 
+new ball game and we do not know how to deal 
+with it this is there it was there you must 
+if you look at the history of the moon program 
+Americas moon raise to the moon they used 
+F engine in the certain rocket which had 
+serious instability problem and America had to work hard to get over it Like that so 
+many rocket have this problem so many rockets have this problem So many industrial burners 
+have this problem and usually this problem 
+is identified only at the later stages of 
+a program and then it\u2019s very hard to fix 
+it So in this lecture we look at the origin 
+of combustion driven oscillation and their 
+suppression 
+In the first part we look at what is combustion instability then we look at mechanisms that 
+cause combustion instabilities how exactly 
+these instabilities occur in various forms 
+of various propulsive systems And then we look very briefly on active and passive control 
+of instabilities So this is like a over view 
+lecture and then we will deal with each of 
+the topics in very serious manner in very 
+liberate manner 
+So India is now expanding its power capability 
+we are I think we are doubling our generation 
+capabilities in every or years So we 
+are now starting to use gas turban engines 
+to produce power these this was commonly 
+used in the western countries but now India 
+is adopting this also we are having a aggressive 
+aerospace program we have space programs 
+and we have jet engine programs we have missile 
+programs All these all these is powered by 
+a common denomination is the combustion 
+And these combustors often have what is called 
+combustion instability What is shown in the 
+slide is a clipping from the wall street journal 
+some years back may be about years back 
+So we in our in the eighties nitric acid rain 
+was considered to be a serious problem and 
+everybody was trying solutions for that and 
+then the engineers and scientists came up 
+with the solution that we have to use combustors 
+which give no anoxia that is nitric oxide 
+NO NO and NO 
+And the solution was to lean premix premier 
+vapor burner LPP burners and these combustors 
+were made and they were brought to the field 
+and then what happened they had instability 
+You can see that the when the combustion equability 
+occurred loud amplitude of sound came inside 
+the combustor and very large level of vibrations 
+were set in we can see this is a article says 
+turbine makers are caught in innovation trap 
+So when the instability of curve you see 
+the bolts were found to have cracked inside 
+the spinning engines and dangerous vibrations 
+heat chills came loose ring burner sounds 
+loudly because gas flames causing serious 
+vibrations parts were coming loose nuts and 
+bolts were coming loose flying off And engine 
+have to be shut down and it to shutdown it 
+tales quite long time because they are very 
+nice bearings it takes half an hour to shut 
+down and half an hour to restart So this 
+is really a tremendous problem in the industry 
+and so a so on those engines that create ah 
+that accuse to generate a power is shutdown 
+it cause lot of money and this causes lot 
+of revenue loss to the power companies 
+In fact power companies asks the turbine companies 
+the gas turbine companies make this engines 
+to pay for this power loss that is happening 
+due to a shutdown because of instability 
+The gas turbine companies suffer very severe 
+severely because this of course then this 
+cost is built into their pricing So in general 
+billions of dollars are lost because this 
+problem and it is a very serious problem in 
+the gas turbine industry Particularly in 
+the recent times gas turbines are used for 
+power production in ground base gas turbine 
+engines 
+Also in aero space program it is a really 
+a very serious plaguing problem in rockets 
+we have really high performance but we can 
+imagine in a rocket typical rocket motor 
+the mean pressure in the rocket would be about 
+bar And even if you have like a one percentage 
+oscillation or two percentage oscillation 
+we still have about a bar oscillation and 
+which is really loud 
+And these rockets are not designed typically 
+with any of those consideration but there 
+design for performance and incredibly performing 
+machine can have severe instability problem 
+and can have loud levels of noise inside the 
+rocket weather it is solid rocket or liquid 
+rocket or it can happen barium jet or jet 
+engine This can lead to severe vibrations 
+that can have very severe structural problems 
+and we can have increased heat transfer to 
+the walls which can actually create problem 
+to a walls you can have altering of burn rates 
+we can have thrust oscillations very large 
+thrust oscillations which can actually take 
+a toll on the vehicle 
+Also even the oscillations are very low amplitude 
+the oscillations can actually perhaps create 
+damage to the satellite because due to the 
+loud the electronic which can not take this 
+kind of loud vibrations or some of the systems 
+in the rocket may actually lock on to frequency 
+For example navigation system may have vibrated 
+the frequency and may get completely damaged 
+So any of these possibilities can lead to 
+a serious compromise machine and we can have 
+a machine failure in fact those who have 
+studied history of the U S space program would 
+know that a fire engine had very severe instability 
+problem And America pumped in lot of dollars 
+to fix this problem The mass lander originally 
+was designed with no alumina that we do not 
+want to pollute the mass environment but 
+the lander the fire had very serious instability 
+problem and in the end they used lot of aluminum 
+in the rocket percent actually to shutdown 
+the stability because instability problem 
+was really compromising the program itself 
+So what causes combustion instability ? Combustion 
+can be unsteady phenomena combustion also 
+make sound in fact even if you see drive 
+leaves burn you will see that they crackle 
+and make sound So this sound that is produced 
+by combustion if you if you look at burner 
+you go to a tea shop and look at the burner 
+the burner actually makes a harms and makes 
+sound this in general in power plants or 
+an engines this flames combustion is usually 
+happening in a enclosed environment So what 
+happens is the sound that is generated by 
+the combustion they travel to the walls get 
+reflected and come back And this sound when 
+it comes back they affect the flame and flames 
+become unsteady now the unsteady flame produces 
+further sound which goes and comes back and 
+intern affects the flame further 
+So this kind of sets up a feedback where 
+in the sound actually makes the flame unsteady 
+and the unsteady flame makes sound So there 
+is some kind of feedback between these two 
+which positive feedback can be set in between 
+the acoustic oscillation acoustic feel and 
+the combustion both in forcing each other 
+And this can actually lead to this problem 
+called combustion instability or the more 
+acoustics instability and this is a very 
+very serious problem What happens is that 
+when the instability occurs oscillations grow 
+in the very large amplitude ? Of course they 
+will the amplitude the oscillation to saturated 
+the limit cycle either a low amplitude limit 
+cycle or it will be two loud that the hardware 
+gets broken and so on 
+So the oscillations actually you can see 
+the grow and could reach limit cycle but 
+even if you have you can have large amplitude 
+oscillation which can for example destroy 
+something like rocket engine or so on but 
+sometimes even we have low amplitude oscillation 
+these oscillation they are sustained and they 
+are over a very large period Now this gas 
+turbines which are producing power they operate 
+for years and the low amplitude vibration 
+itself can actually cause lots of fatigue 
+to the ah the plans or the turbine blades 
+or the pipes so on and can cause crack Here 
+for this example a clack inlet to a gas turbine 
+engine So you can have such failures in gas 
+turbine engines and in aero space program 
+you can actually have a really machine failures 
+and so on So this have been this phenomena 
+has been non force some time 
+And the first engineer stuff is the V bomber 
+which called buzz bomber which was used in 
+world war by the Germans just used a pulse 
+jet engine Although we do not use this kind 
+of a engines any more this is a demonstration 
+of pulsating combustion or combustion instability 
+but here they are used in a sustain manner 
+to make propulsive system Although pulse 
+combustions are still there now they find 
+a applications in creating low carbon monoxide 
+a low notes burners and there is also lots 
+of interest now in thermo acoustics engines 
+and refrigerators So what causes combustion 
+instability ? 
+Combustion instability is a consequence of 
+the interactions between flame flow and acoustics 
+So there is three pillars or to it three 
+icons to it there is flame dynamics that is 
+how the flame responds to the flow and oscillations 
+there is what dynamics or fluid mechanics 
+which is affected by the combustion which 
+is also affected by the acoustic oscillation 
+For example in the case of burner which has 
+voltage shedding in it in block body stabilize 
+bond or something the acoustic feel will 
+surely affect the mechanics fluid mechanics 
+will intern affect the combustion And the 
+combustion in tern affects the acoustic feel 
+similarly the vortex dynamic acoustic the 
+affect the acoustic feel So there is like 
+a strong wake up link can happen between the 
+flame flow and acoustics which is what drive 
+the thermo acoustic engines 
+So what causes instability how does the 
+energy come in to the acoustic feel from the 
+combustion ? Combustion adds the energy to 
+the acoustic feel if it is in face with the 
+pressure oscillation so this was given by 
+Lord Rayleigh in about more than hundred years 
+back in the so called famous Rayleigh criteria 
+so if you have a pressure wave which is there 
+and if it can go on and on But you know if 
+you add heat when a pressure is at a maxima 
+then the amplitude of the wave will grow and 
+then again you add So in this hand waving 
+crude example where we are talking about a 
+instant heat release and if the heat release 
+happens at the pressure maxima then amplitude 
+oscillations can go and you can keep on growing 
+Whereas if you actually add heat when then 
+pressure is at minima you can see that the 
+amplitude with the oscillation will actually 
+come down Opposite is also true when you 
+have oscillations and you add if you remove 
+heat at the minima then you can actually 
+end up driving the oscillations which is opposite 
+So in general combustion adds energy to the 
+acoustic feel if it is an face with the perception 
+fluctuation the combustion oscillations are 
+out of face with acoustic feel then you actually 
+have damping the combustion will take away 
+the acoustic energy So this is called a 
+relay criteria we can express mathematically 
+as follows rate of change of acoustic energy 
+is dependent on the amount of heat that is 
+added at this is proportional to the co relation 
+between the acoustic pressure and the heat 
+release minus the losses So this we will 
+derive in the subsequent lectures in a detailed 
+manner So if heat is added in face with the 
+acoustic feel the oscillation will grow if 
+it is added out if face the oscillation the 
+oscillations will decay that is the that is 
+the basic criteria 
+Now acoustics affects various process in 
+a combustion any time there is oscillation 
+for example if you have the pressure going 
+up and down that is the way acoustic oscillations 
+happen pressure goes up and down acoustics 
+goes up and down When the pressure goes up 
+and down the pressure difference for example 
+that drives the fuel fluoride will be going 
+up and down So if the pressure in the chamber goes up and down the flow rate can also go 
+up and down because the pressure or the delta 
+p which drown the flow rate is going up and 
+down 
+So there is really a the thus really a direct 
+affect from the acoustic on the various acoustic 
+feel on the various process But the thing 
+is it is not instantaneous it happens at a 
+time delay lets say in this example of pressure 
+oscillations affecting the flow rate the 
+pressure oscillation combustion take some 
+time to travel to the injector And then the 
+injector oscillator flow at the injector has 
+to oscillate then the fuel and the air has 
+to come to the combustor where the burning 
+happens So there is a time delay the wave 
+travelling here and the flow travelling back 
+to the to the combustion zone so that is the 
+time delay 
+So the various process similarly there could 
+be proper evaporation in a combustor or a 
+vortex shedding in a combustor So all these 
+are various process so you can see if the 
+pressure is oscillation shown by this pulse 
+various process and the combustor can be shown 
+in they may be happening in the delay So 
+if the delay is such that it happens like 
+a one cycle delay then then it will be face 
+with the next pressure pulse and your oscillation 
+can dry can be driven but if it is such that 
+your not a if you are not in phase with the 
+pressure oscillation 
+Let us say the delays are something else like 
+in this process and then you do not 
+contribute to growth of oscillations but 
+here for example the process one is in phase 
+with pressure because the delay of the process 
+one is same as the time period And then you 
+can drive the oscillations you can of course 
+also have complicated effect where you are 
+delay may be the order of the harmonics of 
+the combustor And then you could perhaps 
+end up driving the higher notes of the combustors 
+So if the delay is just right you are in 
+trouble your oscillation can be built up and 
+just to give up a idea of the time scales 
+involved 
+You can see the acoustics period of hertz 
+oscillation is of the order of second 
+acoustic period of five hundred oscillation 
+this is the order of seconds chemical 
+equation delay is the order of second 
+If you have equal ratio if you consider 
+ratio of you can say it is the order of 
+seconds If you look at a convention 
+convention is a low phenomena it happens much 
+lower speed the speed of the flow but never 
+the less the distance over which the convention 
+happens is also very small 
+So the acoustic feel is spread over the entire 
+combustor which is the order of meter or meters 
+were the conventional For example from the 
+fuel injected flames will happen over centimeter 
+centimeter So although the speed is lower 
+the distance over which the convicted disturbance 
+have to travel is also much much lower Therefore 
+there you end up having parity of times scale 
+although the speed are very despaired So 
+the change in the length scale so you convection 
+of a disturbance of meter per second over 
+a distance of centimeter is of the order 
+of second which happens to be the same 
+as that of a hertz oscillation 
+hertz oscillation is there and the disturbance 
+of meter per second travelling over 
+centimeter you are having a parity of time 
+scale and you can end up having stability 
+The convection of a disturbance over centimeter 
+meter per second happens to second 
+which is in line with this five hundred hertz 
+oscillation The evaporation of micron 
+hydro carbon droplet is of the order of 
+seconds which is slightly shorter time skills 
+So it could work with a higher frequency 
+a micron droplet takes seconds so 
+it depends on the size of the droplet what 
+is the time scale involved in evaporation 
+And therefore it could interact with a appropriate 
+frequency if the length scale of the combustor 
+is giving that kind of frequency Propagation 
+of acoustic disturbance of centimeter 
+centimeter meter per second this 
+seconds is very short but you know that in 
+acoustics the length scalars matters the line 
+of the combustors which is of the order of 
+meters meters So then time scale that 
+is involved is second kind of thing liquid 
+jet brake up another thing 
+There are so many phenomena happen and each 
+have time scales and when the acoustic time 
+scale come close to the time scale of this 
+process And then the delay of the process 
+is of the order of the period of the acoustics 
+then we are prone to tending instability 
+So typical instability evaluation looks like 
+this you have amplitude small amplitude oscillations 
+which grow which keeps on growing and then they reach some kind of limit cycle So the 
+oscillations first grow they go very rapidly 
+they grow exponentially but then they tale 
+of amplitudes do not grow further because 
+the as the oscillation grow you entering nonlinear 
+regime and nonlinear oscillation they tend 
+to attend limit cycle 
+They are also quite tonal that is you have 
+a crisp frequencies occurring you have very 
+crisp for your transforms if you look at it 
+and the well defined frequencies are suppose 
+to broadband sound Broadband sound does have 
+combustion when the instrument dosent happen 
+that is generally referred to as roar or a 
+combustion noise and so on 
+But when the instabilities occur you have 
+very precise frequencies hundred hertz or 
+two hundred hertz some time many harmonics 
+also occur but they are clear tones You 
+know that tone would be like when you play 
+flute you have crisp sound or when you play 
+whistle you have crisp sound that kind of 
+toner sound is what is usually there in instability 
+So combustion responds to the perturbations 
+in flow and acoustics and in turn drives these 
+
+So here is a picture of various phenomena 
+that can combustor which I have borrowed from 
+professor so you have heat links fluctuation 
+and heat release fluctuation acts as a volume 
+and source sound So they act as resource 
+sound create acoustic sound waves and there 
+are so many things happen the acoustic wave 
+could affect the air or the fuel supply And 
+you can up if you have were pressure oscillation 
+can actually change the flow rate of the fuel 
+because delta p changes If you have a air 
+flows relations your flow rate of ah air itself 
+can change because the velocity is oscillating 
+and this can cause 
+For example equal ratio fluctuations because 
+you are having a the fuel flow rate oscillate 
+and air flow rate oscillate equal ratio itself 
+is fluctuating which will lead to heat fluctuation 
+lead to further volume source of sound which 
+will keep building the feedback You can have 
+equivalent structure which can modulate the heat release and heat release can occur certain 
+periodic manner And this modulation will 
+make the heat release fluctuate all this is 
+complicated but the coupling with ah turbulent 
+flow and the flame week link of occurs and 
+so on And we can also have entropy ways which is 
+also driving the sound when the pressure 
+wave come and go into a conversion diversion 
+nozzle or something where the flow is accelerating 
+the sorry the if you have hot spots from the 
+combustor which is the entropy wave they 
+come into the nozzle And go through this 
+accelerating flow they actually get reflected 
+as a acoustics pressure waves So you can 
+have combustion instability happening by this 
+entropy entropy waves which interact with 
+the accelerating flow 
+We can have vortex shedding driving heat release 
+why does vortex shedding combustor ? In a typical 
+combustor let\u2019s see gas turbine combustor 
+you want to have flow happening at Mack number 
+or a and the flame speed lamner flame 
+speed of hydro carbons are typically of the 
+order of meter per second or smaller even 
+if you are a turbulent flow you can get it 
+up to a meters But never the less we can not 
+hold the flame at hundred meter per second 
+and so on 
+So then we have to have some kind of flame 
+holding mechanism so a typical flame holding 
+mechanism could be to use a backward spacing 
+staff and one would be to use a smaller and 
+you have a vortex break down And reason there 
+can be a central toridal decirculation and 
+so on where you can hold the flame or you 
+can have like in after burner we can have 
+v gutters where the flame is cell So all 
+this is a mechanism for flame go flame holding 
+basically some kind of flow separation happens 
+and in this separated flow in the recirculating 
+flow there will be hot ridicules which are 
+their velocities And this ridicules help 
+to hold the flame so in a practice combustor 
+you have some kind of flame holding mechanism 
+either under form of a solar which creates 
+vortex breakdown or a backward spacing step 
+or V gutter or or or block body something 
+like that 
+Now any time you have this thing for example 
+if you would have backward spacing step you 
+actually have vortices being shed at this 
+step and the vortex shedding is a periodic 
+phenomena Now you have a flue mixture coming 
+typically fuel will be injected very close 
+to the step So you have a fuel mixture coming 
+it comes with the vortex periodically comes 
+and sheds and burning gets modulated by this 
+vortex shedding same thing can happen a block body combustor with a vortex vortex shedding 
+can periodically modulate the modulate the 
+burning In addition if you have using a sole 
+flow what can happen is the ah the sole flow 
+can have instabilities such as the precising 
+vortex core and so on 
+So the precising vortex core happens at it 
+precise at certain frequency and therefore 
+instability can happen that frequency So 
+in general the combustion the fuel packet 
+comes with this vertex and burns and therefore 
+vertex shedding can drive heat release oscillation 
+and this is one possible mechanism with which 
+heat release oscillation fluctuation can give 
+can happen heat release fluctuation in acoustic 
+can give raise to heat release oscillation 
+Now what happens is when there is sound and 
+vortex shedding vortex shedding can get synchronies 
+get locked to the acoustic feel and will look 
+at this mechanism in more detail later course 
+So this kind of coupling vortex shedding 
+and the acoustics and the heat release that 
+gives us instability 
+Another mechanism is the entropy mode so the 
+entropy waves the combustion has hot packets 
+of high or temperature sports coming and 
+they come in to the nozzle through which accelerating 
+So when this entropy waves come they get 
+reflected back as pressure and so you do have 
+pressure oscillations coming back and they 
+can come here and again you can get a feedback 
+loop So you can in addition to the pure 
+thermo stick mode you should search for but 
+you can also have entropy modes which can 
+also drive oscillations in a thermostatic 
+engine but this necessarily this happens 
+in engine where the flow is choked 
+So therefore entropy mode both the entropy 
+mode and thermo acoustic mode should be accounted 
+for an one should check for this things 
+Now I will give you example of another example 
+I was mentioning earlier that when this ah 
+lean preamp burners where were build as a 
+solution for the acid rain that you want to 
+make low nox burner So we wanted to you 
+know you want to pre vaporize the fuel and 
+mix it and you basically a premix combustor 
+and so on this developed lot of in instabilities 
+when this was brought on operation What happens 
+is in a simple physical terms you have some 
+kind of fluctuations here they come here and 
+the pressure oscillation cause a fluctuating 
+pressure difference or a delta p 
+So the flow rate oscillates so when the pressure 
+in the combustors low a rarefaction wave comes 
+here And therefore the pressure delta p 
+increases so the fluoride increases When 
+the compression wave comes the delta p decreases 
+and the flow rate comes down So you have 
+a oscillating flow rate so oscillation flow 
+rate can actually lead to oscillating flow 
+rate of fuel can lead to oscillating heat 
+release Similarly when the oscillation come 
+here the air flow through the air duct ah 
+will oscillate to you have both simultaneously 
+fuel flow oscillations as well as air flow 
+oscillations which intern leads to some kind 
+of equivalence ratio fluctuations 
+So you have a pockets of fuel air mixtures 
+they come here and they are coming of course 
+there is a time delay in time which acoustics 
+waves are coming here and this mixture is 
+convicted here So the there is some kind 
+of modulation of equation ratio which results 
+in the modulation of heat release rate and 
+this can intern get in phase with the acoustic 
+oscillation and lead to large amplitude oscillation 
+this was big problem in the \u2019s when people 
+developed this burners which were to operate 
+in the lean limit the lean limit the combustion 
+the combustion is very unstable So we have 
+to go away from the linear limit to make it 
+stabilize So equivalence ratio fluctuation 
+are a big factor in driving instabilities 
+in lean premixed premier priced burner in 
+summary 
+If you take a candle and you put in front 
+of a woofer you can try it at home just take 
+a simple candle and put it in front of a woofer 
+And let\u2019s play some music in the woofer 
+you can see actually the candle flickers you 
+know it respond to high frequency also but 
+low frequency you can observe with your eyes 
+Similarly if you take a boons and burner 
+flame and put a woofer next to it you will 
+actually see flame in front wrinkle 
+So in a the oscillations and they cause the 
+frames to wrinkle these are pictures borrowed 
+from and sorry these wrinkle happen in the 
+wrinkle propagate up And when in premix flame 
+the heat list depends on their amount of flow 
+that is going through because there is flame 
+and premixed reactants reactants in the air 
+oscillations are coming through the flame 
+So the amount of heat this depends on the 
+surface area so when the wrinkle surface area 
+oscillating So in the surface area oscillating 
+due to wrinkles your heat release fluctuation 
+heat release itself is oscillating causing 
+heat release fluctuation 
+So you put a tube around the this boon burner 
+you will hear very nice toner sound so it 
+is a very simple device but you can actually 
+get very nice oscillating acoustic feel very 
+very nice acoustic and this is at another 
+mechanism for making thermo acoustic oscillation 
+So in some flame kinematics is an important 
+mechanism of instability in premixed burners 
+that is the flame wrinkles with the oscillation 
+and the wrinkles cross the flame area to fluctuate 
+and the flame areas fluctuating the heat 
+release oscillations fluctuates So how do 
+we analyze thermo acoustic stabilities ? So 
+we have to write some kind of equations and 
+we have to solve them so how do you study 
+fluid mechanics we write conservations of 
+mass momentum and energy So acoustics is 
+some kind of fluid mechanics acoustic is a 
+branch of a fluid mechanics those also derived 
+from in the same way we studied fluid mechanics 
+except that we have to write the unsteady 
+equation we write the unsteady equation conservation 
+equations 
+First for mass then for momentum and then 
+for energy and then we work with these equations 
+and derive a wave equation 
+So classically we linearize the equation 
+and then we do some algebraic manipulations 
+and derive the wave equation So in a typical 
+classical wave equation the right hand side 
+term is that is d square p by d t square 
+minus c square times d x square equal to 
+that is a classical wave equation that is 
+been studied over and over for last few hundred 
+years Now you have some kind of term and 
+the right hand side there is a simplistic 
+form but here this term on the right hand 
+side mod else the heat release from combustion 
+So now the issue is how to model this heat 
+release we have to have some kind of model 
+link or the flame and the effect of acoustic 
+on the flame that causes the un study acoustic 
+heat and that has to be input in this wave 
+equation And then you have to solve for it 
+and how do you solve for it ? 
+Typically in practical combustion it is solved 
+using what is called network modules So in 
+network modules we have you have a typical 
+combustor as combustors as various components 
+like fuel supply air supply burner flame 
+and combustors So you write equations for 
+each of this so you have some kind of input 
+output relation for the fuel supply which 
+is described in terms of some kind of transfer function So you have transfer function for 
+each of these element and you put them to 
+gather we will learn this in the later part 
+of the course And then we write a series 
+of equations to gather and typically these 
+equations are linear equation 
+So we then take this equation and solve for 
+the Eigen values for the network model And 
+if the Eigen values are complex then we can 
+look at the imaginary part of the Eigen values 
+and then see if your combustor is going to 
+be unstable or stable easier said than that 
+but we will go over it in the later part of 
+the course 
+So if the imaginary if the frequency is complex 
+as I have described complex Eigen value happens 
+then we have a the complex frequency real 
+part and the imaginary part real part if you 
+express omega a pi f plus i times alpha 
+So this f denotes the periodic component 
+of the oscillations and alpha denotes the 
+growth rate as we will see now So if you 
+write p prime which is the pressure fluctuates 
+as p hat e power i omega t so this we can 
+substitute expression here from a omega as 
+p hat e power minus i into power f plus 
+i alpha t which can be reconsidered as p hat 
+times e for minus pi f t 
+So you can see there is a periodic component 
+then there is a so here is a i periodic there 
+is no i here so this is a exponential growth 
+or decay So this term in blue that is a 
+periodic component which is what the real 
+part of frequency in decades and the imaginary 
+part of frequency indicates the exponential 
+growth or decay So in summary we can saw 
+for the Eigen value look at the imaginary 
+part of the Eigen value and look at the grown 
+rate the growth rate is indicating the Eigen 
+vectors are going exponentially then you are 
+in trouble because the there is instabilities 
+Eigen vectors are decaying 
+All the Eigen decaying exponentially there\u2019s 
+no problem it is going to be stable but one 
+of the Eigen vectors is growing exponentially 
+then you have instability or you are prone 
+to instability So this is the standard way 
+of studying combustion instability using network 
+model different people call it by different 
+terms So we looked at how we looked at how 
+instabilities occur 
+Now we see whether we can suppress these 
+instabilities so how do we suppress combustion 
+driven oscillations 
+See first the two way you can suppress one 
+is to eliminating the coupling between heat 
+release and the acoustic field So I said 
+that the instabilities happen because the 
+acoustic feel is coming in phase with combustion 
+there are positive feedback So if you can 
+eliminate coupling between heat release and 
+acoustic feel that is a simple way of eliminating 
+the thermo acoustic oscillations Now easier 
+said than they done but quite difficult and 
+how do we do this so I mentioned about the 
+time scales involved in the previous process 
+So let us say we have a injector which responds 
+to acoustic oscillation and the character 
+stick time are matching with the acoustic 
+frequency So either you can change the acoustic 
+time scale that mean changing the length of 
+the combustor which may be often very difficult 
+because it is a big thing its already built 
+you can not change it So then if you want 
+to change the diameter of the droplets or 
+if you change the nozzle if you change the 
+diameter of the nozzle when you are actually 
+altering the time scale of the droplet evaporation 
+So in this case that would be a easier solution 
+or in the LPP burners that I described you 
+have a time delay dependence on the distance 
+between the injector and the combustion time 
+zone So one possibility to change the location 
+of the injector or alter the injection velocities 
+or change the flow speeds So all this will 
+alter the time place so you have to come 
+up with some way to disturb the coupling between 
+the heat release and the acoustic feel And 
+typically we have the idea of the time delays 
+and you alter the time delay and the coupling 
+will get disrupted and typically it is easier 
+to change the injector or something rather 
+than change the combustor itself 
+So this is the this is the way of so when 
+the oscillations you make sure that the oscillations 
+do not come at all Now in order to practice 
+this approach even before the combustors is 
+design that means you have good stability 
+analysis to rules if you have them you can 
+check for instabilities even before you fabricate 
+the combustor If you done have them if the 
+instabilities are happening then you check 
+for the time scales and alter the time scales 
+The next possibility is to have damping so 
+you can take the attitude let the oscillations 
+be there and I will take them out by observing 
+them So it is like in you know in studios 
+you have perforated walls which will absorb 
+the sound so you can have perforated liners 
+we use that in the engines or in solid rocket 
+motors you have lot of aluminum in it It 
+solves fold purpose the aluminum actually 
+burns to form alumina and alumina gives a 
+very high specific impulse the performance 
+of the rocket is improved but alumina also 
+serves a very important other purpose That 
+is these alumina which ah which is more turn 
+and it it droplet moving they actually take 
+out sound energy 
+So the droplet actually go back in force 
+with oscillations and take of course the 
+sound feel and that is all they move when 
+you have a oscillation and the droplet moving 
+they are moving they are taking the energy 
+of the sound filed If there are significant 
+amount of alumina then lot of acoustic feel 
+can be absorbed so these are classical practice 
+used in space rockets rockets are used to 
+get to space to make sure instabilities do 
+not happen in fact typical rockets have something 
+of the order percentage aluminum loading 
+Although in missiles you sometimes may not 
+be add aluminum because you do not want to 
+have alumina so that you can avoid the signature 
+then those rockets will be more prone to instability 
+You can have other mechanism like putting 
+baffles and so on 
+We have a region of high acoustic velocity 
+and put a baffle so that you take out the 
+maxima you disrupt the acoustic feel somehow 
+take away the energy out So the this would 
+be so that like I said that two ways of removing 
+the acoustic make sure that does not generate 
+by disturbing the coupling between the acoustic 
+and combustion The other thing is let the 
+sound be produced but will upset all of it 
+by using damping material 
+Another strategies using distributed time 
+delay is the various combustors like in annual 
+combustors there will be so many burners 
+and we can have time delay associated with 
+each of them to different So that they do 
+not act all to gather in big bang but they 
+are act with the distributed time delay so 
+you don\u2019t get a very strong acoustic feel 
+because you have the affect being dispersed 
+or distributed 
+So there are various ways of removing the 
+stability typically in practice in stability 
+occurs then only people notice it Although 
+we are trying to design for combustor which 
+without instability and some people we call 
+them residence black magicians who are who 
+are called in when there is a instability 
+problem comes and fix it And this and then 
+you will do some adobe measure and fix it 
+and then in a what is wrong with it is any 
+time you change something when the instabilities 
+comes and you do something remove instability 
+takes a tool on the performance And lot of 
+combustors most large number of combustors 
+have lot of instability problem but the company 
+is which make them they do not like to speak 
+a word because it is very bad publicity so 
+this is seldom talked about 
+Now the last part is about active control 
+can we use some ideas of anti sound to suppress 
+the instability So you must have seen bosh 
+speakers and so on where you put them on and 
+you sit in a aeroplane you do not hear anything 
+or factories your speakers actually cancel 
+the sound and you reduce the amplitude of 
+the sound So can we have some such concept 
+in thermo acoustics where you are having 
+a active control So let the sound reproduce 
+all actively suppress it rather than having 
+a passenger control is so far people prefer 
+the engineers prefer passive control because 
+they are more robust The problem with passive 
+control is each measure works for some kind 
+of frequency range not for all frequency 
+range Whereas the active control should be 
+able to in principle suppress any sound although 
+it\u2019s far from deployed in the industrial 
+sense 
+So it simple scheme given by mcmanus point 
+seven candle in their various famous 
+paper and progress in energy and combustion 
+sciences is given below So the combustor 
+you mess up the pressure in the combustor 
+using a micro phone or a piezo electric fluctuate 
+then you pass it through a time delay generator 
+amplifier So you amplify this signal but 
+you also delay and you then feed this signal 
+to activate it and actuator actually introduces 
+let\u2019s say velocity fluctuations You can 
+have actuator simple simplistic actuator would 
+be a loud speaker so which we will have diaphragm 
+and it will introduce a velocity fluctuation 
+in the combustor And this will be introduced 
+such that the original you had a stable combustor 
+but you put the fluctuation such that it cancels 
+the affect of the instability 
+So have originally unstable system but you 
+have actually pushing the unstable eigen values 
+to stable Eigen value so you make this activator 
+vibrate such that the net system is stable 
+So this is the concept in the very elementary 
+sense this is very simple to say but it 
+is quite hard to do it in a practice In reality 
+the actual combustors employ that employ and 
+active control of combustor instability has 
+very complicated mechanism it is a very complex 
+study by itself and it\u2019s very far from being 
+perfected but will take a look at it in the 
+course And so we can use active control to 
+suppress the instability the very various 
+forms of sophisticated control is that argues 
+to suppress the some optic instabilities 
+In reality we do not put loud speakers in 
+the combustor because you know you can imagine 
+if put a loudspeaker in a combustor loud speaker 
+burn off because it is a very hot style environment 
+combustors So what you do typically you 
+can have a second refill injection which 
+is pulse you can have Now you have very 
+high bandwidth fuel injection pulse fuel in 
+an unsteady manner to the combustion chamber 
+And you send the second refill it produce 
+a second refill heat release The phase of 
+the fuel pulses is arranged such that you 
+have the secondary heat release fluctuations 
+these fluctuations are out of phase acoustic 
+feel and you can actually show that there 
+is very small amount of secondary heat release 
+fluctuations can actually produce serious 
+amount of amount of damping in the system 
+So in summary the combustion instability 
+in summary combustion instabilities very dangerous 
+with catastrophic consequences you can have 
+a the whole engine being destroyed or you 
+can have slow and slow failure by fatigue 
+We say that combustion instability happens 
+between the because the coupling between the 
+heat release and sound and this positive 
+feedback is what is causing the combustion 
+instability thermo acoustic instability if 
+like this one reason why we study acoustics 
+So we have to have a good knowledge acoustic 
+because what is involved is sound that is 
+produced by combustion how it interacts with 
+the combustion So we have to study two thing 
+that is why the first half of the course deals 
+with acoustics how does sound propagate and 
+then we have to study how combustion generate 
+sound That is how the acoustic feeds back 
+with the combustion and produces how do the 
+combustion produces acoustic feed 
+We discuss various mechanism in different 
+combustions we have a different mechanism 
+that include For example vortex shedding 
+and entropy fluctuations flame kinematics 
+droplet evaporation unsteady drop evaporation 
+and steady droplet evaporation there are various 
+different mechanisms that cause combustion 
+instability and we saw that when the combustion 
+is in phase with the pressure So the pressure 
+oscillations affect the combustion fluctuation 
+and there is a delay and if the combustion 
+oscillation are in phase with the acoustic 
+feed in phase with the acoustic pressure specific 
+you get the onset of instabilities 
+And we saw that these instabilities can be 
+analyzed you sing the so called network models 
+which are what is used in practical industrial 
+burners And we use we can use passive control of instability which is what is used in the 
+often in practice that is either do something to damp the oscillation by putting some muffler 
+or liners so on Or you do something to the 
+injector or the fuel location or something 
+and affect the coupling or we can also have 
+a very sophisticated active control where 
+you use fine activators which are driven by 
+controllers which can actually affect the 
+sound 
+So in summary I have given a introduction 
+to what is combustion driven oscillation and 
+how it occurs and propulsive systems and industrial 
+combustors and so on So then about lectures 
+we will have on acoustics it is how we explain 
+we derive the equation acoustic and study 
+the equation and so on And then the next 
+lecture will be on how combustion produces produce a sound In the next class we will 
+speak about we start with acoustics we stick 
+with what the very elementary acoustics and 
+then we go on to deriving the equations of 
+the acoustics deriving the wave equations 
+and the solutions for it so that is the end 
+of lecture one 
+Thank you 
+
+' ] [ u'As we saw in the last class we saw that were happening because of the feedback between 
+the acoustic field and the process and 
+combustors and power plants 
+and we also look at the consequences of the aerospace propulsion 
+system Then we looked at different mechanism which are responsible for crossing this feedback 
+and how we could control this oscillations 
+either passively or actively 
+So the subject has is basically because of 
+coupling between acoustic and combust ants 
+so it is important that we build up a good 
+background acoustics So the first part of 
+the class as I mentioned lass time deals with a acoustics So acoustics deals with generation 
+propagation and effects of sound we will be speaking generally about the first to last 
+text 
+Generation and propagation although a lots 
+of research work on the effects of sound on 
+various things like the subjects like psychological acoustics and so on Lot of study on how sound 
+effects new born babies how sound affects the moods of people how sound how the environmental 
+sound effect the mood of the community and so on We did not look at that we will restrict 
+ourselves to generation and propagation in 
+fact it is much easier to study the propagation 
+of sound rather than generation sound because generation sound is a much more complicated 
+topic So it is easier to do easy things 
+first so we will start out with how sound 
+propagates then we will look at how sound 
+is generated 
+So I must also emphasize that sound should not be a miss normal consequences in the range 
+of human perception that is we can hear some sound We should not restrict the definition 
+of sound it can fall into definition of sound 
+can be a lot more general than that sound 
+could be defined as the disturbance of pressure You could say even more general way disturbance 
+of normal stress which propagates a finite 
+speed in a compressible medium and compressible 
+medium could be solid or liquid or gas We 
+will be mainly dealing with gas in this course 
+let me write down this definition So we 
+say that sound is like a disturbance or pressure 
+or even more general stress normal stress 
+which propagates at finite speed in a compressible 
+medium It can be solid or liquid or gas 
+so in in this class we are going to primarily 
+deal with this so we can also have study 
+propagation of sound and clause mass and also 
+things like photon gas and so on Sound is 
+definition of much more than general what 
+we think that is in terms of what we can perceive on us 
+So in this class we are studying how sound 
+propagates in gases because in combustors 
+we have gases we have fuel and burning and producing product of combustors carbon dioxide 
+and water vapor So all this is gas we are 
+looking to study propagation of sound in gases 
+medium so there are basically you must be 
+knowing you must studied in school that two 
+types of wave they are longitudinal waves 
+as well as transverse wave two types of waves 
+We can say longitudinal and transverse so 
+a longitudinal waves is more like series of 
+compression and refraction propagation 
+So you can have a mechanical energy in which 
+you think of some kind of spring which you 
+compress and then the compression propagates 
+then verification propagation So if I draw 
+a picture so let us say I have a spring this 
+way and compress it and I could have reigns 
+where this spring is very compressed followed 
+by regions where it is verified So you 
+can have compression regions and verification 
+regions followed by compression region So 
+this is like the mechanical analogy of sound 
+you can all also have transverse waves electromagnetic 
+waves of transverse wave but in general a 
+gasses do not support that 
+Although strictly speaking that that segment 
+is true only for inverse force but in general 
+we have compression verification waves which 
+is the longitudinal waves happening in gasses 
+and what we are going to study about So 
+we are primarily dealing with longitudinal 
+wave propagation we can have another example 
+of transverse waves would have a vibrating 
+string You take a guitar and plot the string 
+and you take a cloth line and plot the string 
+you can get waves like this 
+So here the direction of motion the direction 
+of the propagation of the wave is in this 
+direction but the particle is moving perpendicular 
+to it So that is what happens in transverse 
+wave in transverse wave you have this particle 
+motion perpendicular to the direction of motion 
+wave in a compression or ratification wave 
+It is a longitudinal wave you have the wave 
+propagating and this motion of the gas particles 
+also happen along the direction of the propagating 
+So that is the main difference and we in 
+sound is longitudinal waves that is the particle 
+most along the direction of propagation to 
+it So that is what we are going to study 
+so let us look at the air as the medium 
+So we have some kind of iamb impression the 
+pressure here is one atmosphere and we are 
+looking at disturbances about this ambient 
+median So if you draw a graph let us say 
+this is time and pressure so if you have 
+squares and media that is if you have a silence you will have constant pressure silence is 
+just constant atmospheric pressure Then 
+you could have sound then the pressure will 
+fluctuate and it may fluctuate like this like 
+this or like this 
+So you would have a variety of different 
+frequencies so frequency is the rate at which 
+the pressure fluctuates and you can also have a amplitude is the how much pressure fluctuate 
+So we typically think of silence that is 
+sound is above the silence the silence is 
+there is a study base process pressure above which the pressure fluctuate So what are 
+the different kinds of sounds that we experience in our daily life what is the decimal levels 
+and so on So let us look at that so we 
+basically think of pressure the total pressure 
+in it pressure equal to it is a function of 
+time as well as position time t r is position 
+So we can think of it as base pressure p 
+bar the over bar stands for the mean time 
+average quantity plus t prime stand for the 
+fluctuating quantity So this is the mean 
+pressure or the base pressure 
+this is the fluctuating pressure strictly 
+speaking all fluctuating need not be sound 
+You can also have fluctuating water city waves and entropy waves but now we are going to 
+study about sound and this is the fluctuating pressure So we are only looking at the crystal 
+component at this point so the minimum detectable pressure typically by human beings by the 
+human ear is of the order of the order of 
+power minus Pascal 
+Of course it varies from different people 
+to peoples some people can detect more sound 
+then others some people can not but typical sounds that human can detect is 
+minimum detectable sound by human this is 
+the order of to the power minus Pascals So let us look at we will look at various 
+types of sounds and so on so before we do that we have to look at two quantities one 
+is amplitude the other one is frequency So 
+amplitude is how much the fluctuation above 
+the base pressure so that the amplitude though amplitude and frequency are the key characteristics 
+that define the sound wave amplitude and frequency 
+So amplitude is again how much the pressure 
+fluctuate frequency is the number of oscillations 
+per second of the acoustic wave that happens around the speed bar frequency So here we 
+live the term acoustic pressure and fluctuating 
+pressure in the changeably and the acoustic 
+pressure is often defined in terms of log 
+scale Now why do we include log scale because 
+our human hearing is kind 
+So if you double the volume in your loud 
+speaker in your steroid phone you would not 
+perceive it as a volume doubled so it is 
+more than a scale because of that we have 
+a definition of quality called decimals So 
+acoustic pressure is measured in decimals 
+it is decimal written as dB small d capital 
+B so acoustic pressure and decimals is defined 
+as log p over p reference to the base 
+So we take logarithm of pressure divided 
+by difference pressure with respect to the 
+base and multiplied by what is the 
+reference pressure in air the reference pressure 
+is micro Pascals but is into power 
+minus Pascals 
+So we are dealing with air but in water 
+we mention that reference pressure is one 
+micro Pascal I mean it is just a convention 
+So this is this reference is a typically 
+epic that the lower sound the human that is 
+the order of a lower sound the human ear can 
+hear So here human ear can hear so next 
+we speak about so typically the amplitude 
+is expressed in decibels and frequency is 
+denoted in herds so amplitude decibels and 
+frequency herds 
+So herds is same as cycles per second the 
+number of cycles per second frequency is expressed 
+as herds which is also called sometimes cps cycles per second So we have different type of 
+sound we are audible sound which are not audible but are high frequency or frequencies which 
+are very low which we can not see here So 
+if you look at the spectrum so typical human 
+beings can hear from hertz to kilo hertz so this is the audible range and below this 
+there is infra sonic sound or infra sound 
+and above this you have ultra sound So ultra 
+sound is very important infra sound and both 
+have application in various fields infra sound 
+is an application in geo physics in terms 
+of when you talk about earth quakes in its 
+measurements 
+So there is an infra sound to detect if in 
+the ecological application were if some cities 
+are buried inside you create sound wave low 
+frequency sound waves and you try to repair 
+what is reflected of and try to say if there 
+is something like a arch logical site You 
+have city hidden or something many animals 
+can here have a different hearing range for 
+example elephants can here low frequency 
+sound some other animal Here high frequency 
+sound and humans young people can hear from 
+hertz to kilo hertz you grow older 
+hearing deter ate 
+So your range can get narrow ultra sound 
+can also have lot application in doing things 
+like mammogram were people are trying to detect 
+cancer or ultra sound scanning where you 
+try to look at whether the new born baby is 
+healthy so on So we try to do a scan and 
+you since sound see how the sound is scattered 
+and reflected image and look at the picture 
+to get the idea of health of the new born 
+baby So typically acoustics deals with low 
+amplitude sound the linear acoustics that 
+mean the amplitudes are very low but when 
+the amplitude is very high The acoustic wave 
+would become steeper and steeper and you tend 
+to found short wave 
+So that is the subject of nonlinear acoustics 
+in our class mostly we deal with linear acoustics 
+low amplitude acoustics and not really with 
+short waves So just to get a idea of various levels of sound involved so if you are talking 
+about a calm breathing where somebody is sitting 
+calmly and breathing you breathing itself 
+is very fine That would be order of dB 
+the normal conversation would be the order 
+of dB perhaps to dB We have animated 
+loud conversation that could be tending to 
+dB city traffic could be around dB again 
+It depends on which city and the loud Indian 
+cities it many be slightly higher that complain 
+that I would make around eighty dB and lawnmower 
+would make dB 
+The whistle of the train or the horn of the 
+train if you are about feet away would 
+also dB a train itself when it is moving 
+its probably making about dB and 
+would be around or to dB and your 
+thrush hold of pain It is when the ear start 
+hearting support dB and fire work would 
+be like one dB So this is rough figure 
+they are given just to give you a idea of 
+the typical sound pressure seen in various 
+day to day situations I think if you have 
+anything louder than dB if you hear that 
+kind of sound even you are in this ear there 
+is serious danger of losing the hearing 
+If you are even listening to rock concert 
+regularly you are hearing will calm down 
+in fact it study has shown that musician have 
+low hearing because every day listening to 
+very loud sound in their own concepts and 
+sound So there is just a rough idea this 
+is not our basic interest our interest is 
+just study not to study about hearing and 
+so on really to look at how sound propagates 
+inside combustors For that we are trying 
+to build up a background in acoustics theoretical 
+acoustics so having said this we need to 
+be able to quantitatively describe the propagation 
+of sound we need 
+Of course we need to quantitatively describe 
+generation also first we are going to talk 
+about quantitatively the propagation of sound 
+so we need equations for that and that is 
+the that is next half of this term 
+So as I mentioned that we have to we are attempting to describe quantitative propagation of sound 
+so when you want to describe something quantity we need a equation so the equation that describe 
+quantity is the propagation of sound is the 
+wave equation 
+I just want to first of all write it so that 
+you have a idea how it looks like most of 
+you have seen it So this is the classical 
+wave equation so this is an equation that 
+is being studied by mathematicians for a long time and in very great detail So we are 
+going to derive this from a fluid mechanics 
+prospective this is how the subject actually 
+acoustics started in the first derivation 
+of wave equation from fluid mechanics Later 
+on the other process to acoustics came but in this class we are going to describe it 
+based on fluid mechanics 
+In fact in the s this approach came back 
+strongly because of the success of aero acoustics 
+since acoustics were you have to deal with 
+the generation sound and to the generation 
+sound you have to study fluid mechanics So 
+I think in this class we are eventually going 
+to deal with generations of sound so we will 
+stick with the fluid mechanics approach So to simplify matters I will be deriving this 
+in one dimension in fact this equation that 
+have written in this one space dimension a 
+x but we can very easily do it for three 
+dimensional In fact I will write down the 
+results for three dimension so this is a 
+partial differential equation 
+popularly called PDE partial difference equation 
+We are writing a partial differential equation 
+for the acoustic pressure you can also write 
+wave equation which will be another partial 
+equation for acoustic velocity or the density 
+and so on Although writing in terms of the 
+partial is the most popular form now how 
+do we derive this wave equation that is the 
+next step to derive the wave equation We 
+will use the basic equation of fluid mechanics 
+what are the basic equation of fluid mechanics 
+they are continuity equation momentum equation 
+and energy equation 
+So we use they are called conservation equations 
+so for a gas we will also need a stat equation 
+So we will use the moment we speak about 
+continuity equation what comes to your mind 
+is suddenly you think row A V is equal to 
+constant So I am quite worried about this 
+because we are condition to be thinking this 
+is the conservation equation but you are 
+dealing with This is true only for study 
+flows only for study flows and acoustics 
+is primarily an unsteady phenomena so we 
+would be in quite bit of trouble 
+If we use the equation row A V equal to constant we have to un condition ourselves to not to 
+be using that We have use some other form of equation for continuity we should actually 
+be able to deal with and that is the differential form or kinetic equation when you do not 
+make the assumption that the flow is study So similarly we have to use the un study 
+form of the momentum equation so I am not assuming any back ground on fluid mechanics 
+So I will derive the continuity and momentum equations from scratch but I will not do 
+the most general derivation I will do a simple one dimensional equation derivation of the 
+one dimensional equation Now if I am interested you can go ahead and look at fluid mechanic 
+text book to see how a general three dimensional 
+equation for all kinds of situation could 
+be derived but here I am going to restrict 
+myself to just to one dimensional equation 
+So we are looking at the mass conservation 
+or the continuity equation so let us look 
+at the one dimensional control volume and 
+look at a station x and a station x plus d 
+x and we see what happen to the flow that 
+happens across these stations So we want 
+to if you think about what should be the consideration 
+law you can say that if suddenly mass product 
+is coming in and mass product is going out 
+The rate of change of mass florid in the control 
+volume will be equal to the head of mass accumulation 
+So mass florid in minus mass florid out equal 
+to d by d t of mass in the control volume 
+that is the very simple statement of conservation 
+of mass So we are following a control volume 
+approach you can also have particle approach 
+Here we are going to follow a control volume 
+approach or a oil arena approach so in this 
+control volume which is bounded by x plus 
+x delta x So we must emphasize that we are 
+dealing with compressible flow we will say 
+mass flow rate so that would be like mass 
+flow per second in that is happening at x 
+minus mass flow ray out which it will be at 
+x plus dx delta x this should be equal So 
+we take the cross areas one we can also take 
+it as a or some kind of thing will simply 
+keep it as as to keep things simple 
+So this approach is the change of rate of 
+mass in the control volume the volume is 
+the control volume delta x times multiplied 
+by density row you get the mass and rate 
+of change of that is dou by dou t So we 
+can ah write a tailor expansion so the mass 
+fluoride would be row u times and the mass 
+fluoride So this is what we need to look 
+at so this row u of x plus d we can write 
+it as dou of x minus dou of x plus dou by 
+dou x dou u times So we can cancel this 
+so this should be equal to dou by dou t delta extends 
+We can re write this as sorry I missed a 
+minus sign so I can re write it as delta 
+x times dou by dou t of row as this is a universal law So whatever be the delta x we can choose 
+we would satisfy this equation any choice 
+of delta x so if that is the case then 
+what is inside this bracket dou row by dou 
+t plus dou by dou u should be equal to 
+So let me write that here so for any delta 
+x if this equality is valid then what is 
+given here should be equal to 
+So our continuity equation is dou e by dou 
+t plus dou by dou x of row u equal to So 
+this is our continuity equation in this if 
+you write it in a vector form in the general 
+d science it will be dou row by dou t plus 
+del dot row u equal to U is now a vector 
+and I would leave that u to derive this and 
+if you were writing in the Einstein notation 
+or the index notation Then we can write 
+this as dou row by dou t plus dou by dou xi 
+of row U i equal to sorry this is the vector 
+form and this is the index notation correct 
+this is one dimensional 
+So now we have derived the conservation mass 
+equation and the next step is to derive the 
+conservation moment equation rather the conservation 
+of linear momentum conservation of linear 
+momentum So we must have studied in school 
+that this can be expressed as f equal to ma 
+that is the nutrients low but in a fluid 
+we have written slightly differently So 
+what we say is and we are going to do it in 
+a Hilary frame work so what we can say is 
+some of the external forces is equal to rate 
+of change of momentum inside the control volume 
+plus change in momentum flux across the boundaries 
+So that is what the statement would be in 
+the Hilary frame work and this can be this 
+is equivalent to the usual statement in the 
+frame work The theorems which shows the equivalence 
+of that but I am not going to any of that 
+but a standard class in include mechanics 
+would deal with these things So let me write 
+the statement 
+some of external forces is equal to rate of 
+change of momentum inside the control volume 
+plus change in momentum flux across the control 
+surface 
+So whatever I have written words in the right 
+hand side can be just written as in equation 
+format dou by dou t of momentum inside plus 
+momentum flux out minus momentum flux So 
+this term dou by dou t term momentum insert 
+plus momentum flux out minus momentum flux 
+in that would be equal to the some of the 
+external forces So let us try to evaluate 
+what this term is in right hand side so this 
+would be equal to again we consider a one 
+dimensional duck with a unit cross section 
+area this for convenience but you can have 
+any cross section area and just find 
+So this would be equal to 
+one is the cross section area so row theta 
+x that is the mass time times one that is 
+the mass times u that is the momentum plus 
+U square at x plus delta x minus row times 
+U to the mass times velocity at x Now this 
+should be equal to the external forces So 
+the external forces are pressure forces plus 
+discuss forces plus body forces and so on 
+So we are not considering any body forces 
+or visit forces we are looking at in visit 
+fluid with no body forces and pressure force 
+actually in acoustic propagation the pressure 
+forces will be what is dominant 
+So let us before that try to expand this 
+term delta x plus cancel this term so this 
+is the simple simplified form of the term 
+now external forces equal to 
+pressure forces plus forces plus body forces 
+So we are not going to considered those two 
+looking at in visit force with no body forces 
+and so what is the net pressure force in the 
+x direction so pressure times area is the 
+force 
+So here we are talking about unit area so 
+p times so this would be equal to p at 
+x minus p at x plus delta x whole thing multiplied 
+by one because of unit area cross section 
+So this can be written as p f x minus pressure 
+at x plus dou p by dou x and dou delta x 
+So this will cancel now if you collect these 
+terms to gather then this plus this so you 
+will get what you get now we can simplify 
+this 
+We write it nicely s p and again as I mentioned 
+earlier this equation should be true for any 
+arbitrary control volume space delta x So 
+that means the term without delta x should 
+be so we can write this as delta x times 
+dou by dou t of row u plus dou by dou x of 
+row u square plus dou p by dou So we should 
+have this equation work for any arbitrary 
+delta x so I will drop this and say that 
+of the momentum equation this momentum equation 
+is given and what is called the conservation 
+form This is very important for solving a 
+things numerically and computation dynamics 
+this is the momentum equation in conservation 
+form Now what we can do is to get this in 
+terms of the raw variables and that is also 
+quite useful 
+So that would be let us expand in this term 
+we can say row times dou u by dou t plus u 
+times dou row by dou t plus u times dou by 
+dou x of row u plus row u times dou u by dou 
+x plus dou p by dou x equal to Now if 
+you see this term these two terms can be clubbed 
+to gather as u times dou row by dou t plus 
+dou by dou x of row u In fact this total 
+thing you see from here that this some of 
+these terms is equal to 
+This should be equal to so we can drop 
+this term and you are left with just those 
+terms So the momentum equation can now be 
+written nicely in another form which is row 
+dou u by dou t plus u dou u by dou x equal 
+to minus dou p by dou x This is the one dimensional 
+momentum conservation equation in terms of 
+the row variables raw variables because these 
+are the variables that you can measure directly 
+So we can also write this in in the other 
+forms so I can write this in a vector form 
+as dou u by dou t u dot lu times row equal 
+to minus del p in the index notation This 
+would be row times dou U i by dou t plus u 
+uj dou j of dou x this would be u dot del 
+times U i equal to minus dou p by dou x i 
+So this is the vector form this is the index 
+notation or the Einstein convention and you 
+have the one dimensional form here so let 
+me write that write below so this will be 
+our one dimensional form So now we have 
+derived the equations of continuity momentum 
+and next we need a relationship between pressure 
+and density we need a pressure density relationship 
+So there is a rule called two property rule 
+in thermo dynamics a thermo dynamic state 
+is defined by two thermo dynamic variables 
+at some instantaneous time in a uniform flow 
+and a single flow So you need two thermo 
+dynamic variables to that is called two property 
+rule 
+you need two thermo dynamic variable to describe 
+the system So we can say that for example 
+p equal to is pressure is a equation of row 
+comma entropy So these are let us say you 
+specify density and entropy s equal to entropy 
+row is density p equal to pressure 
+So in sound propagation we assume that sound 
+is propagating in an isentropic way so there 
+is no there is no heat flow in and out of 
+the particle no heat flow in and out if a 
+fluid particle 
+So we can say s equal to some reference quantity 
+s not that is the entropy is not changing 
+what we can say that is pressure equal to 
+a function of row comma s not where s not 
+is constant value to we say this is for 
+isentropic sound propagation 
+So we now have a relationship let us say 
+p equal to p of row comma s not there is a 
+unique relationship between the unique relationship 
+between pressure and density So this is 
+the state equation 
+So to summaries what we have the full set 
+of equation that we derive so we have the 
+conservation of mass conservation and momentum 
+conservation will be row times dou u by dou 
+t plus u dou u by dou x equal to minus dou 
+p by dou x So this is momentum conservation 
+and we have p equal to p of row comma s not this is the state equation So we have these 
+three equations this summary of the equation and we have conservation of mass momentum 
+conservation and state equation So we have 
+derived the basic equation of fluid mechanics 
+now I did not derive the energy equation that 
+is the reason for that 
+In fact for simple situation we do not need 
+it because we will see it later I will leave 
+that equation for subsequent class why we 
+have not going use energy equation although 
+when you have a combusting kind of a situation 
+Here there is non uniform temptation we will 
+need to use the equation So we will eventually 
+derive it but at the moment I try to keep 
+thing simple energy deriving energy equation 
+is little bit more complex 
+So we have three equations now some of the 
+things we want to see they are coupled equation 
+because the variables appear in all the equation 
+they are non linear see the terms row du 
+by dx So you have non linear coupled partial differential equation that is what we have 
+we have non linear coupled partial difference equation These equations have very limited 
+number of equations and often we will have to solve the numerically but in linear acoustics 
+we if we can lean rise this equation and write a linear Then we can actually derive the 
+linear wave equation and then we may be able to get exact analytical solutions 
+So that is what we will proceed to do in 
+the next class what we do is we will leave 
+lean arise the equation of mass and momentum and also lean arise the state equation that 
+means we will write variable as a mean quantity plus fluctuating quantity This fluctuating 
+quantity will have value which is much smaller than the mean quantity and then we will neglect 
+product of two fluctuating quantities We 
+will get this linear equation and couple them 
+we will some algebraic manipulation and derive 
+the linear wave equation and that that is 
+what we do in next class 
+So to summaries what we did is lecture we 
+talked about what is acoustics what we talked 
+little bit about what is there in the subject 
+acoustics let us talk about what a wave is 
+talked about amplitude and frequency Then 
+we spoke about various kind of infra sonic 
+sound and so on we spoke about practical 
+situations where what the situation decibel 
+levels that we see 
+Then we said we will attempt to derive conservation 
+of mass momentum excreta and then we will 
+and we derive this things in a attempt to 
+be able to derive the wave equation which 
+we will do in the next class So you should 
+work out this exercises in the first exercise 
+I want you to do similar derivation for a 
+variable area duct 
+Here you have a general function a of x wining slowly with x and derive the following gone 
+equation that is this continuity equation 
+which is a first equation given in the slide 
+Then the momentum equation the second equation 
+given to slide and the last equation is the 
+energy equation please do this it is quite 
+a simple problem just do it carefully the 
+final equation of water given here try to 
+get this answer 
+Then the next question is let us consider 
+two acoustic sources that are in phase each 
+of them individually produces as acoustic 
+pressure amplitude of decibels what will 
+be the amplitude of both of them If they 
+are on simultaneous in the phase is a 
+dB or is it something else you will be tempted to say the answer dB but what is it ? 
+I will stop with this and have a good day 
+we will now in the next lecture we will proceed 
+to the wave equation first and then we get 
+the solutions 
+Thank you 
+
+' ] [ u'Good day welcome to the third lecture on acoustic instabilities in aerospace propulsion 
+the last class we talked about very basic 
+of acoustics What is sound ? How sound is 
+characterized in terms of frequency amplitude and so on And then we spoke about the definition 
+of decibel and then we talked about various kind of sounds that we hear in our day to 
+day life And what are the typical decibel 
+levels and so on ? Then we said that we want 
+to characterize sound the propagation sound mathematically So we are starting from the 
+basic equations of fluid mechanics which is conservation of mass momentum and energy 
+and so on and the state equation 
+So we derived the conservation of mass which 
+is the continuity equation and the momentum equation from basic first principles We also 
+spoke about the state equation and so on 
+Today we are going to talk about how we derived 
+the wave equation from these equations ? So before I proceed to this let us start with 
+a story So there was just a professor who 
+was working very late and then he was trying 
+to go home and he was let us say drunk and it was like some a m in the morning and 
+he suddenly discovered that he has lost his 
+married his or her marriage ring And then 
+the professor decided to search for the marriage wedding ring And the professor was searching 
+on the street and wherever he could we think he a wherever he thought it will be there 
+And then comes a student graduation student was working very hard and he is seeing he 
+saw the professor And he asked the professor professor What 
+are you doing ? So late in the night Professor I lost my wedding ring and I am searching 
+for it and the student said ok Let me try 
+to help you I will join you and I will try 
+to help you The student also wanted to impress the professor and so on So both professor 
+student are starting to search for the professors wedding ring The professor was really want 
+it because if he or she goes home the spouse will be very angry The professor can be man 
+or woman does not matter and then pretty soon the student discovered that the professor 
+searching for the wedding ring only under 
+the lamppost 
+So the student found this very amusing and he went and asked the professor professor 
+is there any guarantee that you would have 
+lost the wedding ring or what guarantee is 
+there that you would have lost the wedding 
+ring under a lamppost ? Its highly unlikely 
+the professor said look I made a assumption I assume that the ring will be there under 
+the lamppost Then the student ask I mean 
+it is a very bad assumption the professor 
+says this is the only place where I can look 
+So I made the assumption that its under the 
+lamppost So I look where I can 
+So this is kind of true with our mathematical 
+analysis also that is we make assumptions 
+so that we can simplify things and we can 
+deal with things So often the assumptions 
+are not because they are the way it is We 
+make assumptions so that we can do things with the equations and then we look for situations 
+where the assumptions are applicable and then we say that the solutions were derived or 
+the equations we have derived are applicable under these set of conditions and so on 
+So we derive partial differential equation 
+and there were couple partial differential 
+equation and there were non linear and so 
+on And I said that it was very hard to get 
+very general solution for these things So 
+the idea is that we need to get some solutions 
+because we can not just sit there without any 
+hope or helplessly and say that these are 
+complicated equations we can do we can not 
+do anything about it So we do the same thing 
+that the professor did So we can look under 
+the lamppost where he we can look 
+So we make assumptions so that we can solve 
+the equations that we have derived under whatever 
+conditions it is possible So what we are 
+going to do ? I will let me summarize what 
+we are going to do ? Is to assume that we have 
+a very small amplitude disturbances and then 
+we derive we will linearize this non linear 
+equation look for a set of linear equations 
+or suppose simplifies this non linear equations 
+in to a simplified linerized version And 
+then we try to make more assumptions about 
+the quantities and then try to see if we can 
+derive some kind of simple equation simple 
+linear equation which can be solved with paper 
+and pencil and that has and its on utility 
+no matter how simplifying the assumptions 
+that we have 
+So in order to refresh your memory I will 
+write down the equations 
+This is the conservation mass or the continuity 
+equation And the momentum equation is rho 
+times and I want to say that I am doing everything 
+in one dimension but the three dimension is 
+not too difficult And recall that s naught 
+is constant that means you are saying that 
+we are talking about constant entropy process 
+And now what we need to do ? Is we want to 
+linearize this equations So you can is the 
+non linear term here This is going to give 
+lot of trouble in terms of solving the equations 
+And so what we want to do ? Is to say that 
+the perturbations and pressure velocity density and temperature are fairly small compare to 
+the mean values So we take the equations 
+perturb the equations around its mean that 
+way we derived the so called acoustic equations And then we say that these perturbations are 
+really small So the advantage of this is 
+that you can actually drop out terms which 
+are product of perturbations quantities 
+that way we get a linear equation and which 
+we can solve So this whole process called linear acoustic 
+So the assumption here is that perturbations in pressuredensitytemperaturevelocity are 
+of much smaller compared to their mean values So this would be what we referred to as linear 
+acoustics ? And we also assume a homogenous fluid and we say that the mean quantities 
+the mean pressure mean density and mean temperature independent of the position of the medium 
+And we will also say that we are a having 
+a quiescent medium That means there is no 
+mean velocity associated with the medium 
+The mean quantities I will denote the mean 
+by a over bar p bar rho bar t bar are a 
+constant and u bar equal to So we have 
+constant thermodynamic mean properties and 
+the mean flow velocity is that means it 
+is a quasion medium 
+So we now write all the variables so let 
+us say pressure equal to We write the variables 
+as the sum of a mean quantity and the fluctuating 
+quantity Prime density equal to mean density 
+plus fluctuating density temperature equal 
+to bar plus t prime u equal to u bar plus 
+u prime So here we are saying that we have 
+a quasion medium so we drop this term and 
+in general you could have the pressure and 
+mean pressure and density temperature varying 
+but in this particular case h we are keeping 
+them as constant We also say that p prime 
+over p bar a is much less than rho prime 
+over rho bar its negative it is much less 
+than t prime over t bar is much less than 
+and so on 
+So now that means if p prime p bar is much lower than and rho prime by rho bar is much 
+lower than then this quantities are very 
+small So we can actually drop terms that 
+second order quantity that means terms that 
+involves products of this quantities So 
+let us now perturb up this equation and write 
+this in terms of this mean and mean quantity 
+and the perturbation quantity and then try 
+to proceed the linearise the equation So 
+let us start with continuity equation 
+So when you linearise this you will get dou 
+by dou tau rho bar plus rho prime plus dou 
+by dou x so rho bar plus rho prime into u 
+bar plus u prime equal to Now I said that 
+there is no u bar so we can simply erase this 
+term and just say u prime equal to So 
+let us expand this equation and look at each 
+term So rho bar is a time average value 
+of mean time r value of density so that is 
+a average quantity in terms of time So by 
+definition its independent of time So the 
+first term will drop out see you keep only 
+dou rho prime by dou t plus Let us expand 
+this term so we will have dou by dou x rho 
+bar u prime plus dou by dou x so rho prime 
+u prime equal to Now this is a second 
+order quantity Of course it is a non linear 
+quantity and the trick here is that we do 
+not deal with nonlinearity we are trying to 
+linearise 
+So we will drop this we also assume that 
+rho bar is a constant It is independent of 
+space we can take it outside the derivative 
+So in the final equations become so let me 
+say rho bar equal to constant So this would be the perturbation equation for the continuity 
+equation So its like the acoustic equation 
+for continuity So we need to do the same 
+procedure next with the momentum equations 
+So let us do that momentum equation you will have rho bar plus rho prime multiplied by 
+dou by dou t of u bar plus u prime plus u 
+bar plus u prime into dou by dou x So u 
+bar plus u prime equal to minus dou by dou 
+x So p bar plus p prime So let us simplify 
+matters we said that there is no u bar term So we can drop wherever there is u bar first 
+And so let us say rho bar plus rho prime into dou u prime by dou t plus u prime dou u prime 
+by dou x equal to minus We said that the 
+mean pressure is independent of space so we 
+can drop the term and dou p bar by dou x can be droped 
+So you will have just dou x Now lets expand this out So you will have rho bar dou u 
+prime by dou t plus rho bar u prime dou u 
+prime by dou x plus rho prime dou u prime 
+by dou t plus rho prime u prime dou by dou 
+x equal to minus dou p prime by dou x dou 
+x So if you remember the primes stands for the fluctuating quantity or the acoustic quantity 
+and once again the bar stands for the mean quantity So now we look so this is a first 
+order quantity we can keep that So we keep this is a second order quantity will drop 
+this also a second order quantity we drop 
+that the third order quantity So let us 
+write this is second order this is third order 
+So we keep only the leading order 
+So our equation now becomes rho bar dou u prime by dou t equal to minus dou p prime 
+by dou x So this is the acoustic momentum equation Next we want to linearise the equation 
+of state 
+For that we said that p equal to p of rho 
+comma s naught and remember that we said that 
+we are having a isotropic process here So 
+let us take a graphical approach Now let 
+us take a look at a graph of p versus rho 
+and lets say its varying in some fashion 
+Let us mark our mean quantity of p bar and 
+rho bar Let us say this is our mean state 
+and we perturb things around it So here 
+this is the region we are looking and this 
+region So we although this function could be a general 
+curve In this small region the pressure is 
+fluctuating about a mean value And this fluctuating 
+around mean value and this is a really small region and there we can say that this variation 
+is linear So we have a linear variation 
+in the vicinity of this base flow or the mean 
+quantities we are having a linear variation 
+So we can try it a linear relationship or 
+write a equation of a straight line mathematically We can use a tailor series For example so 
+pressure can be written as can we expanded by tailor series about its base value plus 
+dou p by dou rho at constant rho p times rho minus rho bar plus half into dou square p 
+by dou rho square into rho ms rho bar whole square plus higher order terms 
+So lets throughout the higher order terms 
+and write a keep only the linear term So 
+we can say we drop them Now we can rewrite this equation as p minus p bar equal to dou 
+rho by sorry dou p by dou rho as naught times rho minus rho bar So this would be the linearised 
+equation of state And if you look carefully 
+we know that this is our p prime and this 
+is our rho prime So basically we are having 
+p prime equal to dou p by dou rho at constant 
+entropy times rho prime Now this is a constant 
+value and we can denote it by some constant 
+So we say that dou p by dou rho lets call 
+its c square this by definition 
+So we can say that p prime equal to c squared 
+times rho prime So at this point it is not 
+clear that c is its not clear that c is the 
+speed of sound At this point we will have 
+to wait a little bit before we can see what 
+actually see physically means ? Whether it 
+is speed of sound and so far 
+So let me summarize the equations that we derived So let us call this equation call 
+this equation call this equation Now 
+I must say that something really annoying 
+in the convention used in acoustic that is 
+they free when it explode u keep the primes 
+to some point and then suddenly the author drops the prime So generally the quantity 
+without prime So for example rho prime would actually be written as rho I mean will be 
+written as rho prime sometimes but p prime is staying as p prime But if you the mean 
+pressure will be denoted by p bar or something but after some time and I mean this dropping 
+of primes is sometimes quite annoying but 
+I will try to be consistent and keep this 
+notations correctly yeah thank you so And 
+in the convention sometimes rho bar is written 
+as rho and its very mixed up and so on But 
+its better to be consistent and keep the following 
+notation about primes and bars and just keep it 
+So now what we do ? Is we can so we next we proceed to derive the wave equation 
+So what we can do ? Is to take dou by dou t of equation and subtract dou by dou x of equation 
+and then you will get And we also use p prime equal to c squared rho prime So if you do 
+that here you will get So you are going 
+to get over c squared dou p prime by dou 
+t plus rho bar dou p prime by dou x equal 
+to And here so if I take a time derivative 
+of this I will get over c squared d squared 
+p prime by d squared plus rho bar dou squared 
+u by dou t dou x equal to 
+If I take this space derivative of this equation 
+What you will get ? Is rho bar dou squared u prime by dou x dou t equal to minus dou 
+square t over dou x square Now you can subtract this equation from this subtract the bottom 
+equation from the top equation And then you can get over c squared d squared p over 
+d t square equal to dou square p by dou x 
+square So this is the wave equation or this 
+so called classical wave equation And we 
+having at look that the physical meaning of 
+c although you might have I think all of you 
+know that c stands for speed of sound but 
+we will have to see very carefully that what 
+c is ? So let me so I must mention that I 
+made a assumption here that dou squared u by dou t dou x equal to dou square dou by 
+dou x dou t That is why i could subtract 
+the term of or cancel the term over And of 
+course that is ok when the velocity is a continues function of x and time then you solve the 
+derivatives So that is we have derived the 
+wave equation and will be make a few remarks 
+about the wave equation 
+We derived the wave equation from a fluid 
+mechanic conservation laws is just from fundamentals 
+The second thing I want to say those of you are mathematically incline will notice that 
+this is a hyperbolic partial differential 
+equation PDE stands for partial differential 
+equation In fact you see that the characteristics are the d x by d t equal to plus or minus 
+c I am not going to go in to much of a detail But if you are mathematically inclined you 
+can persive this lineand we did not use the 
+linearised equation of energy 
+But actually if you work out the problem 
+and if you work out the linearised equation 
+of energy it will turn that the linearised 
+equation for continuity equation is identical 
+to the linearised equation For energy equation in this case if there may be different and 
+some other case that is when you have temperature gradient or when you have combusting and so 
+on These equation may be different but right now they are the same So we see this dimensional 
+wave equation We can I want to make a few more probations if you do a dimensional 
+derivation of it 
+In dimension you would have over c square dou squared p by dou t squared equal to del 
+square p In fact I have started forgetting 
+my prime So I think this will happens to 
+you Also so please remember to be consistent with the notation and you can also derive 
+the wave equation in terms of acoustic velocity or velocity potential and so on You can do 
+this as a homework So in terms of acoustic velocity 
+you will also get an identical wave equation 
+Now the I want to speak about certain 
+characteristic of this equation This is a 
+linear equation of course we linearized our 
+original equation 
+So naturally we will end up with a linear 
+equation and this is of the most studied 
+equation in maths And in fact if you had 
+a minus sign here or here if you had a minus 
+sign then you know What the equation this 
+become ? It is a laplace equation which has 
+completely different characteristics So 
+the advantage of linearity is that if you 
+have linear equation will have linear solutions and we can superimpose the solution 
+So if you have a solutions you can add them or multiply by on constant multiply the other 
+by another constant we can construct more and more solutions 
+The wave equation is also homogenous There are no other source terms if there are source 
+terms then the wave equation will become in homogeneous So this wave equation does not 
+speak about the production of sound it only 
+talks about the propagation of sound We did 
+not consider any sound sources in this and 
+sound source of course will come in second 
+half of the course A similar equation can 
+be derived for the propagation of electro 
+magnetic waves in free space Of course it 
+will look like a different Similarly you 
+can have a wave equation for schodinger equation 
+Though these are very important class of equation 
+that has been well studied by the mathematicians and the physicist 
+Historically the D wave equation was derived first by d Alembert for oscillations of strings 
+And Euler in s derived this equation specifically for sound propagation in fluids One last 
+comment the wave equation is a second order partial differential equation and it will 
+have infinite number of solutions This specific solutions can be obtained of course you need 
+to specify the particular boundary conditions and the initial conditions and so on 
+So we will look for solutions for the travelling wave solutions standing wave solutions etcetera 
+And first we will look for deriving generalized solution So the solution procedure is quite 
+simple we will factorize this wave equation 
+That is the wave equation and we assume that 
+d square p prime by dou x dou t equal to dou square p by dou t dou x So we can actually 
+factorize this equation as follows its quite 
+simple to work out 
+So this is a same equation factorized it 
+you expand this if you expand this equation 
+out you will get the equation at the top 
+So then we can have possibilities is 
+dou p by you have the first operator acting on pressure 
+equal to or you can also have the possibility 
+of the second operator acting on the pressure fluctuating pressure second operator acting 
+on the fluctuating pressure makes it So 
+if you look carefully you can I mean you can 
+rewrite this as dou p prime by dou x plus 
+over c dou p prime by dou t equal to or 
+we can write dou p prime by dou t plus c times dou p prime by dou x equal to 
+So you can easily see that the c is the characteristic speed d x by d t equal to c So the solution 
+a generalized solution for this would be equal to f of x minus c t and similarly if you 
+look at you can write this equation as dou 
+p prime by dou t minus c dou p prime by dou 
+x equal to So the characteristic speed 
+here is dou x by dou t equal to c Yeah that 
+should be c Thank you 
+So this would be p prime equal to g of x 
+plus c t So f prefen a sound function g 
+is another function Now you can write a 
+general solution as p prime equal to f of 
+x minus c t plus g of x plus c t So this 
+would be the general solution Now its quite 
+easy to convince yourself that this solution 
+actually satisfies this first equation and 
+this equation actually satisfies the top equation I will just show that Let us make a change 
+of variable or a transformation that will 
+make things easy 
+So we say that xi equal to x minus c t So 
+we say that dou p prime by dou x equal to 
+dou p prime by dou xi into dou xi by dou x 
+Similarly we can say that dou p prime by 
+dou t equal to dou p prime by dou xi into 
+dou xi by dou t Now if you see dou xi by 
+dou x equal to and dou xi by dou t equal 
+to minus c 
+So if you substitute this in here I will get 
+So now if I substitute this in the wave equation 
+What we had ? Was dou p by dou t plus c dou p by dou x equal to So if you make this 
+substitution dou p by dou t is nothing but 
+a minus c dou p prime by dou xi plus c times 
+dou p prime by dou sei You can see that this actually cancel this and you will get So 
+therefore f of x minus c t is actually a solution to the wave equation 
+Similarly if you follow the same procedure 
+except you use another variable If you use 
+eta equal to x plus c t you can a prove that 
+g of x plus c t is also a solution to the 
+wave equation Therefore the general solution for the wave equation is p rime equal to f 
+of x minus c t plus g of x plus c t So I 
+must emphasize that f and g are at this stage 
+simply orbiter function and we do not know 
+what they are ? They could be any functions 
+but the specific form of the functions depends very much on the type of initial condition 
+that you use and the type of boundary conditions that we use So now lets the big question 
+we have to ask is what is c ? 
+So the next question is What is the meaning of c ? Towards this purpose lets just take 
+a look at the first solution p prime equal 
+to f of x minus c t So if you the meaning 
+of this is that as long as you are on the 
+line x minus c t equal to constant You will 
+see the same pressure so that x minus c t 
+some kind of preserved quantity So if you 
+have a wave shape and it moves to some other place between similar points this quantity 
+will be preserved So lets say the you are at X comma t 
+at sometime at instant at another instant 
+we are at X comma t Now if you are on 
+this solution then you have to make sure that x minus c t is constant that is the thing 
+its preserved So now you will say that or 
+t minus x by c some people write x minus c 
+t sometimes you can say t minus x over c 
+Whatever t minus X over c equal to t 
+minus X over c or we can rewrite this as 
+xX minus X over t minus t equal to 
+c So you can really see that t is the time 
+taken by the wave travel from X to X in 
+this time interval t t minus t So therefore 
+c is indeed the speed of sound Now if you 
+are looking at rite propagating wave Now 
+f of x minus c t is right propagating wave 
+because the velocity of the wave is its varying 
+in to characteristic d x over d t equal to 
+c And so it is a right running wave If you 
+were to write the other solution we have g 
+of x minus c t If you look at this solution 
+What is preserved ? Is or it can possibly written as g of t minus x over u x plus 
+So t plus X over c equal to t plus 
+X over c So What we can see ? Is X 
+minus X over c equal to t minus t or 
+X equal to X minus c into t minus t 
+That means actually the wave is here You can see its wave is propagating to the left 
+So this is left running wave Whereas in 
+the earlier case we see that the wave is propagating 
+to the right because you can see that X 
+equal to X plus c into t minus t So 
+this a so called right right running wave 
+So now you can clearly see that why is c 
+is the speed of sound Now you can clearly 
+see why c is actually is the speed of sound 
+anything else ok So let us look at some more things about 
+this solution p prime equal to f of x minus 
+c t or g is equal to x plus c t So this 
+means that along that x minus c t you have 
+a certain shape of the wave or along x plus 
+c t you have certain post shape of the wave That means we are having a solution which 
+says that the wave shape is constant Wave shape does not change the amplitude doent 
+change only the wave just propagates 
+So we are looking at D wave or D plane 
+wave because we only have a coordinate x 
+So it is a plane wave So lets look at the 
+futures of the D plane wave 
+So with amplitude is all based is that f of g So there is no attenuation or speeding 
+and the second feature is that the wave shape the wave shape does not change to any propagation 
+We will see later on in the course where will 
+have the situations where the amplitude and 
+the shape will change during propagation 
+But at the moment from this classical case 
+the wave shape does not change during propagation 
+So the last thing is I want to work out 
+is to work out the relationship between the 
+acoustic pressure and the acoustic velocity How do we go about doing this ? So we can 
+actually what this out by using the acoustic 
+momentum equation or the euler equation its 
+linerized version 
+So we are trying to derive the relationship 
+between acoustic pressure and acoustic velocity 
+for a plane wave So use the linareized Euler equation or the linerized momentum equation 
+which is rho bar dou u prime by dou t equal 
+to minus dou p prime by dou x So we can 
+do this relations separately for a right propagating wave and then for a left running wave So 
+let us denote the right propagating wave by 
+plus and the left propagating wave by minus 
+So we will write dou u prime plus over dou 
+t equal to minus over rho bar dou p prime 
+plus rho dou x So all we need to do is to 
+say that So you can integrate with right 
+hand side with respect to time and you will 
+be able to get the velocity 
+So we can change the variables to xi equal 
+to x minus c t Then we can see that d t equal 
+to minus over c d sei So d p by d x equal 
+to and now if you substitute this in here 
+What you can get ? Is u plus equal to minus 
+over rho bar integral dou f by dou xi into 
+minus over c dou xi by So this would be 
+nothing but over rho bar c integral dou 
+f which is f over rho bar c If you are starting with initial conditions that are a question 
+So basically we can say that u plus equal 
+to p plus divided by rho bar c Now if you 
+were to workout this relation would the left 
+running wave and that is quite easy 
+So we say that eta equal to x plus c t and 
+we can follow the same procedure and you can 
+then derive the relation Sorry it is a you 
+follow the same procedure as for integration 
+you can and then you will get the results 
+So it\xe2\u20ac\u2122s a just to 
+you would get this relation So I there is 
+a minus sign in front of of p prime So in 
+either case either for a left running wave 
+or a right running wave the magnitude of the 
+velocity is the magnitude of the pressure 
+divided by rho bar c rho bar c is quantity 
+called characteristic impendence Now the 
+only thing is for a right running wave the 
+velocity the front face velocity is u plus 
+equal to p plus divided by rho bar c 
+For a left running wave u minus equal to minus p minus divided by rho bar c So these are 
+opposite sign this is although it looks strange that there is a different sign its quite intuitively 
+obvious So let us look at the compression 
+wave which is going to your right side Now 
+if the wave is going to right side the gas 
+particle will if the compression wave the 
+gas particle will will move behind the wave 
+to the right So then the sign should be 
+plus because you are having the wave also 
+move behind the the velocity move also to 
+the positive x axis So there should be a 
+plus 
+Whereas the compression is going to the negative x axis then the particle will try to that 
+compression wave to negative x axis So its naturally have a minus sign because its going 
+into opposite direction So that is what 
+that is the reason for this left running wave 
+having a minus sign in front of it for the 
+expression for the acoustic velocity Whereas 
+right running wave has a plus sign or a positive sign before the expression for acoustic velocity 
+So in general 
+p plus over u plus equal to p prime minus divided by So if you take the region 
+and the magnitudes will obviously rho bar 
+c and rho bar c is called characteristic impendence 
+of the medium Different mediums will have different value for example a would be of 
+the value would be around for water it 
+would be some other value 
+For example let us work out rho bar c would be typically rho would be let us say kg 
+per meter square into speed of sound would be typically meter per second So you 
+will get approximately kilogram meter 
+or minus second power minus So this 
+unit kilogram will meter per minus kilogram 
+per meter square second This is called the 
+this unit is referred to as rayleigh in order 
+to honor the great scientist dort rayliegh 
+who did a law of pioneer in working acoustics Now if you are having a Now if you are having 
+another medium medium water So you would have rho bar is kg per meter cube for 
+water speed of sound is of the order of meter per second 
+So rho bar c would be of the order of 
+into power rayleigh So you can see 
+that for different mediums the value of the 
+rho bar c the characteristic impendence is 
+quite different for different medium So 
+we will stop here at this point What we did ? 
+Is yes here I put a to summarize what we did ? Is we took the equations of fluid mechanics 
+which we derived in last class Then we made assumptions of liner acoustic that means we 
+we split the variables into a mean quantity 
+and a perturbation quantity Then we said 
+that the perturbation are very small compare to the mean 
+So we actually neglect we kept the quantities which are first order in the perturbations 
+but we neglected everything that the second order or higher And then we massage these 
+equations and derived the classical wave equation Then we actually proceeded to find the solutions 
+to wave equation which is as I showed earlier f of x minus c t in g of x plus c t And then 
+we also derived expression for acoustic velocity in terms of the acoustic pressure So we 
+will stop here today Thank you Have a good day 
+
+' ] [ u'In the last class we derived the wave equation and please remember that we derived the wave 
+equation from the fundamental equation of 
+the fluid mechanics And we just took the 
+equations of fluid mechanism We linearized this equations and then manipulated equation 
+to get a nice linear equation which is its 
+second order partial different equation and 
+we actual actually solutions for this equation Now this solutions where if you remember 
+of the form f of x plus c t and g f x minus 
+c t 
+So this x minus c t when that is the argument corresponds to the right running wave and 
+x plus c t corresponding corresponds to a 
+left running wave And then we also derived 
+expression for acoustic velocity in terms 
+of acoustic pressure we saw that they where 
+related by the characteristic impedance rho 
+c For the right running wave the acoustic 
+velocity was acoustic pressure divided by 
+rho c And for the left running wave those 
+are minus sign it was negative of acoustic 
+pressure divided by rho c that is the biggest 
+difference in the direction of motion of the 
+gas when difference in direction of the particle 
+velocity that the sign is there 
+Now in this class we are going to try to 
+look at harmonic waves Now this is very 
+simple concept and we can understand a lot 
+of things Although we are often you could 
+have many different frequencies but now at 
+least the situation which you have just 
+frequency is not all that diagram it can happen 
+quit easily and you can set it up nicely in 
+a laboratory 
+So physically you have harmonic waves you need a sound source that gives sound at a 
+single frequency And that is not too hard 
+to imagine you can have a loud speaker or 
+a piston which is vibrating at a single one 
+particular frequency and so this is a very 
+simple and ideal case of wave propagation 
+And it is quote fundamental because even if 
+you have transcend signals or signals with 
+many different frequencies in it or waves 
+that are not sinusoidal order You could actually use for the transform and then now actually 
+you can express this complex signal as a super position of various different harmonic waves 
+and with so if you can analyze one particular frequency you can analyze all particular frequency 
+And since we are having a linear theory that is our differential equation linear and if 
+our boundary condition also linear then you 
+can actually solution which can be super post 
+and you can construct solution for more complicated situations So let us get on with harmonic waves 
+So for studying harmonic waves you would have guessed correctly that we would 
+use sines or cosin and you can use either 
+of them it is wave is phase shifted to get 
+another So there is no problem with that So let us write 
+So this is a typical expression for plane propagation of harmonic waves plane 
+because we are talking about dimensional wave So X is the only special dimension 
+and you can also see that this is off the 
+form f of t minus X over C 
+This is like you know we saw the solutions f of t minus X over C and this was the right running wave And 
+if you did have the other function g of t 
+plus X over C Then you could write the corresponding 
+wave as a Cos pi f f is the frequency here 
+times t plus X over C minus phi naught 
+This is a oscillating at a single frequency 
+and the frequency here is f So this is the 
+f which correspond to solution which we had last time but what have written here f is 
+the f is the frequency Now phi naught is 
+the initial phase 
+This is because depending 
+on your choice of coordinate system it depending on when you stop the clock you can change 
+phase depends on that it is with reference 
+to a reference time So depending on the 
+starting of time t equal to you need a phase because Sin and Cos depends on you know the 
+phase depends on when you start your time So there are possibilities to visualize 
+a harmonic wave You can either you know 
+we have a function of time and X So we can 
+one particular way to do this is we can freeze the time and look at it has a function of 
+X the other possibilities you can freeze X 
+and look it has function of time So you 
+freeze the space and look at it look at the 
+wave as the function of time And we can make 
+out certain characteristic from it and we 
+can do the opposite 
+Let us be a first look at a freeze the space 
+that is at particular space I am sitting 
+and looking at the wave So What I could 
+do ? Is to put a microphone at particular 
+location and see how the wave looks like and we can take the signal from the microphone 
+to oscilloscope and visualize it Let me draw how a typical signal would look like ? 
+So this would be the time period T 
+The period is defined as the time with the 
+pattern repeats So the either the time its 
+interval between crust or trough or any 
+points which are similar And you have the amplitude here which is A so that is the 
+amplitude of the weave and here we are Now let me mark the axis its p of its some reference 
+value p of t comma t as a function of t 
+And you can easily see this particular value 
+if I read of this would be A Cos phi naught 
+so that is because the reference phase 
+So this picture clearly defines what is A ? 
+What is phi naught and what is time period 
+T ? And the idea is that the wave repeats after every time interval T So with that we can 
+look at what happens to we can actually derive the relationship between time period T and 
+frequency So if the wave repeats after every time interval T your argument will actually 
+change by phi you know Sin theta is same as Sin theta plus pi 
+So if you use that and say that 
+So this is after a time interval T minus What was there at 
+original time ? So if you say this periodic we will get a phase difference of 
+pi So if you expand this you will see 
+pi f t plus pi f t minus pi f X over 
+C minus phi naught minus pi f t minus 
+pi f X over C minus phi naught equal to 
+pi not And you can see this cancels this 
+cancels this cancels So what you would 
+get is ? pi f T equal to pi which we can 
+simplify and say f T equal to or time period 
+T equal to over f I think all of you knew 
+this in advance but this is like a reverse 
+saying that the time period of a wave a goes like the reciprocal of the frequency 
+Now we will do the other approach What we can do is ? 
+In this particular example we froze the distance So we said we will stay at X equal to and 
+we looked at the variation in time So instead what we can do ? Is we freeze at particular 
+time and then we see the variation next How do you ? How is it possible to freeze at 
+particular time ? So what we can do ? Is we 
+can put microphones at various locations along 
+the duct Whatever and you make measurements at instant T one particular instant of time 
+you make measurements with several different microphones along your duct where sound is 
+propagating and plot them so that would be the way how to get the distribution along 
+space to what a you would get be something of this form 
+Now what I am having is p of X coma that is the time t equal to as a function of 
+X and lets mark the important features Now the distance between peaks would now be 
+the wave length lambda That is the length 
+of the wave that is the distance between 
+different waves difference distance between different peaks you can also define it as 
+different crust and so on And amplitude 
+here is the same A and you also have the rough 
+reference phase A Cos phi naught actually 
+A Cos minus phi naught but A Cos of minus 
+phi naught is same as Cos of phi naught Now you can total get a relationship between the 
+wave length and the frequency 
+What we can do ? Is we do the same thing as 
+we did here see when the pattern repeats 
+So the periodicity means you get a difference 
+in phase of pi between different crust 
+or different trough and so on So pi 
+f times t minus X over C plus lambda lambda is the wave length minus phi naught minus 
+pi f t known as X over C minus phi naught 
+equal to pi So you can see this term cancels 
+with this this cancels here this cancels 
+here and what you would get ? Is pi f lambda 
+or should have lambda over C 
+X is X plus lambda over C equal to pi or 
+you would get f lambda equal to C or lambda equal to C over f so that is if you derive 
+the speed of sound divided by number of waves per second you would get the wave length 
+I think this is also a intuitive result and 
+we have derived this somewhat rigorously here 
+In other words within this time interval T 
+the peak has travelled the distance lambda 
+at the speed c c is the speed of sound 
+Now I just want to do one more definition 
+which is a wave number K which is defined 
+as pi over lambda and which is equal to 
+pi f over C this also define omega over 
+C So k is the wave number which is defined as pi over lambda which is omega over C 
+omega is refer to as the angular frequency 
+So we can now write the harmonic wave expression 
+for a harmonic wave as follows this is what we have to begin with We can equivalently 
+write this in terms of omega and also in terms of wave number we can write because omega 
+over C is K 
+This is written for the right running wave 
+we can or similarly get expression for the 
+left running wave as well How many waves 
+are there per meter or or centimeter ? Whatever 
+so this is the number of waves per unit distance it is very physical concept In fact this 
+concept came from electromagnetic theory and sound where they were actually in spectrum 
+counting how many waves over there in per 
+unit distance but same thing can not close 
+here Now the next think you want to do is you 
+want to use the complex notation because it turns out that your algebra is very convenient 
+in complex notation Its more convenient than using trigonometric functions and so let 
+us try to do the derivation try to work out 
+acoustic in the complex notation Its equal 
+and you can either view complex numbers or you can use Cos and Sin and I will talk about 
+the equivalence So 
+we know the formula e power i theta equal 
+to Cos theta plus i Sin theta So this is 
+the basic formula how to convert bit how to go between complex numbers and Cosine and 
+Sin\u2019s And lets all we would need of the 
+course nothing more than that So what we 
+know now is that when you say you have again i say mentioned earlier sometimes we drop 
+the primes but there is really primes they 
+are fluctuating pressure but if I drop it 
+that is all that is because that is the standard convince to drop this but I as far I remember 
+I will try to keep the primes 
+so if you see this formula e power i theta is Cos theta 
+plus i Sin theta So Cos theta is really the real part of 
+e power of i theta If you want a function with Cos theta e and you insist and writing exponential 
+e power i theta Then what you can do ? Is 
+you can write Cos theta as real part of e 
+power i theta So if you want let me write 
+that r e refers to real part of 
+So if I have a expression for a harmonic 
+wave as follows I can now write it as real 
+part of A e power i times k x minus omega 
+t plus phi naught So when you do this e 
+power i times this factor you will have Cos 
+and Sin and we want only the Cos So we take 
+the real part Now p prime is the real pressure there is So complex notation is a only convenient 
+way to do the algebra there is nothing complex about the whole idea it is just of we are 
+using complex numbers Now we knew use the term complex number we say that the Cos theta 
+is there plus i times Sin theta we say i is 
+imaginary number 
+For example we say that if you have a number a plus i b we call a the real part and we 
+say b is the imaginary part i b is the imaginary part but i want the emphases that there is 
+nothing imaginary about the imaginary numbers it is just a bad nomenclature So you can 
+think of a plus i b that we can alternatively 
+think of it as quantity is describing something 
+it is like if you are the vector a times i 
+plus b times j 
+So suppose we have a vector a times i plus 
+b times j this i and j are the basis function 
+they are the unit vector along i is the unit 
+vector along the x axis j is the unit vector 
+along y axis Now we write the vector along this basis function using this basis function 
+So a and b are the components which are the projections along this basis functions So 
+instead of using i and j the basis functions 
+that we use are coma and coma coma 
+in conventional convent ally we refer as 
+and comma i we refer to as 
+i So it is just complex numbers is a quality which helps you to did in some point which 
+need too thing to be specified So complex 
+numbers enable to do that So although we 
+have a real part and imaginary part The imaginary part is not only imaginary thing it is just 
+a convenient way of notation and you see that here in complex When use this we actually 
+use imaginary numbers to denote phase as I will show you Now in a few minutes time 
+So suppose we where to expand this out 
+So we can say that p of prime of x comma 
+t equal to A e power i times K x minus omega 
+t minus phi naught This can be recast as 
+A e power i phi naught times e power i k x 
+times e power minus i omega t Now what we can do ? Is we can club these thing together 
+this is the function of this So we can call 
+it p hat of x This is a function of space 
+times e power minus i omega t This amplitude is called the complex amplitude p hat of x 
+is the complex amplitude I must emphasis 
+thing here we should not take the complex 
+amplitude and take its real part that is meaningless We take the complex amplitude multiplied by 
+e power i omega t and then take the real part of the whole thing that will give the real 
+instantaneous pressure is that clear Let 
+me repeat again we take the complex amplitude 
+multiplied by e power i omega t e power i 
+omega t or here its e power minus omega t 
+taking is both this will be Cos omega t i 
+Sin omega t So you do whole multiplication 
+and then take the real part and that is what 
+gives instantaneous pressure Next I will 
+show the equivalence between these notations 
+So let us say we have the quantity p hat 
+of x times e power i omega t we can do the 
+same thing with e power i omega t If you 
+stick with on you should stick with the same 
+thing throughout with your calculation that 
+is what is important If you can show where 
+you use e power i omega t or e power minus i omega t you will get the same results So 
+just start to be consistent and so if you 
+expand this out you will get p real of x 
+plus i times So the hat usually denotes complex amplitude 
+So let us multiply this thing out So what 
+you get ? Is p l of x times Cos omega t minus 
+p imaginary of x times Sin omega t plus i 
+times p i needs to hats sorry x times plus 
+peril of x times Sin omega t So this is 
+the real part and what we are interested in 
+as I mentioned the instantaneous pressure 
+is take the in this pressure this whole thing 
+p hat x e power i omega t So this is the real part and that is what we are interested in 
+So this it is this 
+this quantity I will let me just write it again 
+Now I will do algebraic manipulation What 
+I will do ? Is take the square of p r square 
+plus p imaginary square its square root and 
+we will multiply and divide by that So what 
+we get is So already it is multiply the numerator and denominator by the same quantity So 
+it is really the same factor this will cancel 
+minus Now we can say that you know very 
+simple algebra 
+Now we can say this is expression is same 
+as p here squared of x plus p imaginary squared 
+of x times We can write this term as let 
+us say Cos phi and this term as let us say 
+Sin phi and you know that if you square this 
+plus square this you will get So this 
+its p r square plus p imaginary square divided by this quantity square So you will get 
+add this square this term and square this 
+term add them 
+So this we can write as Cos phi Cos omega t minus Sin phi Sin omega t This could be 
+recast as root of p real square plus p imaginary square times Cos omega t plus phi where we 
+form therefore phi is tan phi equal to p 
+imaginary of x divided by p real of x needs 
+to hat So you can see that the imaginary 
+part actually is the another way of the presenting the phase 
+imaginary part is another way of 
+representing the phase So nothing imaginary 
+about it is just it is just a reference And 
+this quantity is this is actually is the amplitude 
+of the signal 
+So this is actually the amplitude which could be written as square root of p hat star 
+So we need more things to be done we have 
+to talk about How to express acoustic velocity in terms of acoustic pressure ? We also need 
+to talk about acoustic displacement amplitude in time domain we derived a relation for acoustic 
+velocity in terms of acoustic pressure and 
+actually there are relation for the forward 
+running wave and for the backward running left running and right running wave Let us 
+do that for the case of harmonic domain 
+frequency 
+So if we remember our momentum equation was rho bar equal to minus rho p prime by rho 
+x So let us say you hat equal to when I 
+write this it is implied that the actually 
+taking the real part So even when you say 
+text book they would not often write u prime 
+is real part of you had e power of i omega 
+t that is implied enough to states similarly 
+we can write p hat equal to now we remember that this complex amplitude is actually a 
+it can be a function of space so that is 
+why put the function of dependence So if 
+you now substitute the equations here I will 
+get rho bar u when you differentiate u of 
+x it just states it is not a function of 
+time times differentiate e power i omega t 
+you will get i omega e power i omega t 
+So this would be minus rho p hat x over rho 
+x or e power i omega t does not have any x 
+So it justice now e could cancel this So 
+you can say that you hat of x equal to minus over i omega rho rho p hat by rho x 
+So this is the relationship between acoustic velocity and acoustic pressure In the harmonic 
+domain I must emphases that when you say u hat of x that is really the particle velocity 
+that is if you think of a fluid partials it 
+is the velocity of the fluid particles 
+That is different from the speed of the way 
+Now just to give a analogy to make this things 
+clear Suppose you are standing in a line 
+let us say you are going to a movie and you 
+are standing in a line and somebody pushes the last fellow in the line and then he pushes 
+the guy in front and he pushes the person 
+in front and so on So eventually the push 
+was started at the end of the line travels 
+forward and it will be going till the guy 
+the front of the just before the ticket counter Now the wave itself actually move across 
+the line although each person only move little bit So the push will go at certain speed 
+all through the line that would be equivalent to our probation of the wave The pattern 
+itself moving but each person moves little 
+bit when the push happens that would be like 
+our particle velocity so that would be a 
+very cued analogy but I hope it helps you 
+to understand the difference between particle velocity and phase velocity 
+So the see which is the speed of sound that is the rated which the wave propagates that 
+is different from how much the fluid particle moves this is very important and when we say 
+you had a fax this is u is called acoustic 
+velocity And this is different from C C 
+is the speed of sound So please remember to distinguish between these The last thing 
+I want to speak about is the relationship 
+between particle replacement and particle 
+velocity 
+So its quite simple displacement and velocity can be written by sorry differentiate the 
+displacement and you get the velocity So 
+this is the so we say u prime equal to u 
+hat e power i omega t and we say xi of x equal to xi of x hat times e power i omega t So 
+you substitute it here you get u hat e power 
+i omega t equal to i omega So times e power 
+i omega t So this cancels so you get the simple relationship 
+between the acoustic velocity and the particle velocity and the acoustic velocity So we 
+did not say anything about the energy in the wave So the next issue we are addressing 
+is to look at how much energy is there in 
+the wave and try to writ the expression for 
+it and try to see expression to look at evolution 
+energy 
+So this would be called Acoustic Energy Corollary Corollary because we are not deriving anything 
+from first principles We are taking the momentum equation and the continuity equation and from 
+those equations we are getting another equation So we are not deriving equation from scratch 
+the existing equations the continuity momentum equations are there and we deriving energy 
+equation which is compatible with that so 
+that is why it is called corollary it is 
+from something which is already existing 
+Recall that the momentum equation or the Euler\u2019s 
+equation form rho bar dou u prime by dou t 
+plus dou p prime by dow x equal to What 
+I will do ? Is to multiply this equation by 
+u prime and now I have rho bar 
+what I will do ? Now is to write u prime dou 
+p prime by dou x can be written as dou by 
+dou x of u prime p prime minus p prime So why I am doing it you will see it in a minute 
+it leads to some important physical research of this be patient Now let us substitute 
+this over here you will get rho bar dou by 
+dou t of u prime square divided by plus 
+dou by dou x of p prime u prime this time 
+here minus p prime dou u prime by dou x equal to 
+Now what we need ? Is a expression for dou u prime by dou x So we can get that 
+from the linearized continuity equation 
+So now we have a explained for dou u prime by dou x which is here We also note that 
+remember last class we said rho prime equal to p prime over c square So you substitute 
+that in here we will get minus over rho 
+bar dou by dou t of p prime So what we going 
+to do ? Is to substitute this equation here 
+and you will get rho bar u prime square over 
+by plus dou by dou x of p prime u prime 
+minus over rho bar c square We have a p 
+prime multiplying d t prime by d t So you 
+get dou by dou t of p prime square over 
+equal to So we can drop this term and 
+this term together and write very nicely 
+So we can say 
+So this would be the Acoustic Energy Corollary 
+So let us call that will be w of the term 
+half rho bar u prime square plus half p prime 
+square over rho bar c square This is the 
+term which was inside the derivative So 
+we can what is this w ? 
+You could imagine w is nothing but kinetic energy and this would be potential energy So we can 
+say that dou by dou t of w plus dou by dou 
+x of p prime u prime equal to this is the 
+so called Acoustic Energy Corollary 
+So this above equations is for the dimensional 
+case if you where having a general dimensional case you would still have a equation which 
+is similar this is for dimension case for 
+D What you would have ? is 
+a instead of dou by dou x we will have del dot p v equal to where w will now be defined as half 
+rho bar e dot v or this negative dot velocity 
+square plus half p prime square over p naught 
+c square And this term inside the radian 
+that is p v vector quantity this is called 
+I this is the acoustic intensity vector This 
+is in a differential form what we can do is 
+we can integrate this over a control volume 
+And then what we can do is let us say we are integrating this equation over a control volume 
+this is the control volume plus now you can 
+you use Gauss theorem to convert this sorry 
+this diversion term into a surface integral 
+So this is the integral form this has very 
+important physical meaning What this means ? Is time rate of change of acoustic energy 
+in the control volume equal to the flux of 
+intensity which is coming in minus the flux 
+of intensity that is going out I will write 
+this in words So this intensity coming in 
+of flux its flux coming in minus intensity 
+out across the control surface 
+So what does this physically mean ? So if 
+you have some amount of acoustic energy hat 
+is coming in from the coming from the boundaries Let us say we have a nut here and here from 
+boundaries So if lot of energy is more energy is coming into the control volume from the boundary\u2019s 
+and if more is coming in than what is going out then naturally the energy 
+in the control volume will increase Now 
+if more energy is going out compared to what 
+is coming in then you would have the acoustic energy in the control volume decrease Now 
+if they are saying whatever is coming in whatever is going out acoustic energy will stay same 
+or if nothing is coming out and nothing is 
+coming in very ridge walls and cavity then 
+the acoustic energy will stay same 
+So these are very beautiful result it is 
+called Acoustic Energy Corollary Later on 
+in the course when we speak about the onset 
+of thermo acoustic instabilities and how sound drives sound is driven by fluctuations and 
+heat release rate we will actually be deriving extensions of e equation with source term 
+right Now there is no source term here there if you can have things coming from you can 
+have things coming from boundary in a row 
+but nothing produced inside in reality you 
+can imagine things sound can be produced Sound is always produced somewhere the other 
+h So we are concerned about democratic instability So if there is a flame here and if there 
+is some mechanism with which sound is produced then we have to account for it So we have 
+to modify this equation to account for source term there could also be volumetric terms 
+which take away the energy for example here could be if you think about solid rocket kind 
+of situation n solid rocket motor 
+How does instability very big problem of democratic 
+instability solid rocket motors ? So what 
+they do is solid rocket motors use aluminous 
+propellant and now aluminum severs four purpose the alumina gives the percent of alumina 
+alumina is very advantage from a specific 
+impulse point of view aluminum burnt from 
+alumina and this actually has a very high 
+heat release weight And we get very high 
+temperature rise because of this therefore 
+you get extra thrust you get higher specific 
+impulse But also source of another important purpose 
+from point of view of combust instability 
+there these particles alumina particles in 
+they are molten form In which is there in 
+the gas form to face flow mixture and there 
+actually dam the oscillation in the particles 
+They start moving with the oscillations d 
+they take away the energy from the oscillations So that would be like a sink so that be like 
+a volumetric sink So you can have inside 
+a volume you can have both volumetric sources 
+and volumetric sink at the moment We have not does with any of them but when we the 
+evil in the second of the class derived expressions which you deal with volumetric sound sources 
+and volumetric sound sink 
+Now does more thing that I want to say 
+here actually that is really throwing a spanner in the works We spoke about considering acoustic 
+energy but really in our situation that is 
+for example in engines or any such flow situations 
+we actually have different types of fluctuations acoustic is just of them we have vortices 
+fluctuations And we have entropy fluctuations and I must also say that we have written this 
+whole wave equation and this flow analysis 
+everything in the absence of mean flow We 
+are looking at a quiescent medium 
+So in the presence of moving medium the corollary 
+gets much more complex and it and further 
+if you have entropy disturbances or entropy 
+fluctuations And if you vortices fluctuations and there is a quite a bit of debate and what 
+is the acoustic energy itself ? So many people are working on it its even it is a topic of 
+current interest So you do not have a very 
+simple research like this you love much more 
+complex yourself We will speak about it again in the second round of the class you have 
+to dominantly daily with dimension situation So what happens to the acoustic intensity 
+in a dimension situation ? 
+So in dimensional situation if we have 
+only the x component So we have only u 
+So we just have v equal to u times i So 
+and if you are looking at a let us consider 
+a special case of plane way we have u equal to p over rho bar c So then we can say I 
+equal to p prime square over So this the 
+expression for acoustic intensity for dimensional 
+case its p prime square over rho bar c So 
+it can be reduced purely from pressure measurements 
+So I will stop today\u2019s lecture with this 
+what we did we looked at harmonic waves We 
+got expression for harmonic waves then we converted look found equivalent expressions 
+in terms of exponential functions So we 
+looked at Cos and Sin as well as e power i 
+x and then we also derived expression for 
+acoustic velocity in terms of acoustic pressure 
+We also talked about acoustic displacement particle displacement then we also looked 
+at the why we need a imaginary quantity or 
+complex number ? What is the relevance of the 
+imaginary quantity ? We saw that it is simply another way of denoting the phase And lastly 
+we derived the equation for the evolution 
+of acoustic energy It is a Corollary it was 
+derived from continuity and momentum equations Then we also introduced the concept to acoustic 
+intensity I will stop with this Have a good 
+day 
+
